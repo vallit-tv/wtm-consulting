@@ -2524,3 +2524,356 @@ header.header-scrolled .logo img {
         font-size: 0.85rem;
     }
 }
+
+/* ============================================
+   AKTUELLES SECTION
+   ============================================ */
+.aktuelles-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+}
+
+.news-card {
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--color-border);
+    overflow: hidden;
+    transition: all var(--transition-normal);
+    position: relative;
+}
+
+.news-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: var(--radius-md);
+    box-shadow: 0 0 0 0 rgba(157, 212, 208, 0);
+    transition: box-shadow var(--transition-normal);
+    pointer-events: none;
+}
+
+.news-card:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-6px);
+    box-shadow: var(--shadow-lg);
+}
+
+.news-card:hover::before {
+    box-shadow: 0 0 20px 2px rgba(157, 212, 208, 0.25);
+}
+
+/* Featured News Card */
+.news-card-featured {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-white) 100%);
+}
+
+.news-image-container {
+    background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.news-image-placeholder {
+    width: 80px;
+    height: 80px;
+    color: var(--color-deep-blue);
+    opacity: 0.4;
+}
+
+.news-image-placeholder svg {
+    width: 100%;
+    height: 100%;
+}
+
+.news-card-featured .news-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* News Content */
+.news-content {
+    padding: 1.5rem;
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.news-date {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.news-category {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.3rem 0.6rem;
+    border-radius: 3px;
+}
+
+.news-category-training {
+    background: var(--color-primary);
+    color: var(--color-deep-blue);
+}
+
+.news-category-event {
+    background: #E8D5B7;
+    color: #5D4E37;
+}
+
+.news-category-unternehmen {
+    background: #D4E5F7;
+    color: #2C5282;
+}
+
+.news-category-blog {
+    background: #E2D9F3;
+    color: #553C9A;
+}
+
+.news-title {
+    font-size: 1.25rem;
+    color: var(--color-deep-blue);
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    font-family: var(--font-heading);
+}
+
+.news-card:not(.news-card-featured) .news-title {
+    font-size: 1.1rem;
+}
+
+.news-excerpt {
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.news-link {
+    color: var(--color-accent);
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: all var(--transition-fast);
+}
+
+.news-link:hover {
+    color: var(--color-accent-hover);
+    gap: 0.5rem;
+}
+
+.aktuelles-cta {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+/* ============================================
+   SUBTLE PROFESSIONAL ANIMATIONS
+   ============================================ */
+
+/* Accent Line Draw Animation */
+@keyframes drawLine {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60px;
+    }
+}
+
+.accent-line-animated {
+    width: 0;
+    animation: drawLine 0.6s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.reveal.visible .accent-line-animated {
+    animation: drawLine 0.6s ease-out forwards;
+}
+
+/* Enhanced Card Hover States */
+.offering-card,
+.training-card,
+.team-member-card,
+.news-card {
+    will-change: transform, box-shadow;
+}
+
+/* Icon Subtle Pulse on Hover */
+@keyframes subtlePulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.08);
+    }
+}
+
+.offering-card:hover .offering-icon {
+    animation: subtlePulse 0.6s ease-in-out;
+}
+
+/* Button Shine Effect */
+.btn-primary {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: none;
+}
+
+.btn-primary:hover::after {
+    animation: buttonShine 0.6s ease-out forwards;
+}
+
+@keyframes buttonShine {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 150%;
+    }
+}
+
+/* Smooth Hover Lift for Interactive Elements */
+.offering-link,
+.news-link,
+.blog-link {
+    position: relative;
+}
+
+.offering-link::after,
+.news-link::after,
+.blog-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: currentColor;
+    transition: width var(--transition-fast);
+}
+
+.offering-link:hover::after,
+.news-link:hover::after,
+.blog-link:hover::after {
+    width: 100%;
+}
+
+/* Enhanced Stagger Animations */
+.stagger-1 { transition-delay: 0.05s; }
+.stagger-2 { transition-delay: 0.15s; }
+.stagger-3 { transition-delay: 0.25s; }
+.stagger-4 { transition-delay: 0.35s; }
+
+/* Hero Highlight Gradient */
+.hero-content h1 span {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Smooth Scroll Behavior Enhancement */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    .reveal,
+    .reveal-left,
+    .reveal-right {
+        transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+}
+
+/* Stats Counter Animation Enhancement */
+.team-stat-item .stat-number .counter {
+    display: inline-block;
+    min-width: 2ch;
+}
+
+/* Category Badge Hover Effect */
+.news-category,
+.training-badge,
+.member-tag {
+    transition: all var(--transition-fast);
+}
+
+.news-card:hover .news-category {
+    transform: scale(1.05);
+}
+
+/* ============================================
+   AKTUELLES RESPONSIVE
+   ============================================ */
+@media (max-width: 1024px) {
+    .aktuelles-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .news-card-featured {
+        grid-column: span 2;
+        grid-template-columns: 1fr;
+    }
+    
+    .news-image-container {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .aktuelles-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .news-card-featured {
+        grid-column: span 1;
+    }
+    
+    .news-card-featured .news-content {
+        padding: 1.5rem;
+    }
+    
+    .news-title {
+        font-size: 1.1rem;
+    }
+    
+    .news-card:not(.news-card-featured) .news-title {
+        font-size: 1rem;
+    }
+}
