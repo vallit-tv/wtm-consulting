@@ -3744,6 +3744,29 @@ letter-spacing: 0.1em;
     border-left: 4px solid #4a7ca5;
 }
 
+/* Empty/Placeholder Item */
+.item-empty {
+    border-style: dashed !important;
+    border-color: #cbd5e0;
+    color: #9aa5b1;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: none;
+    border-width: 2px;
+}
+
+.item-empty:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-white);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+}
+
+.mindmap-lines .line-empty {
+    stroke: #cbd5e0;
+    stroke-dasharray: 4;
+}
+
 .item-red {
     border-left: 4px solid #c24c4c;
 }
