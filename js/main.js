@@ -362,22 +362,14 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         3: {
-            name: 'Frank Titzer',
-            role: 'Gründer & Mitgeschäftsführer',
-            tags: ['Führungscoaching', 'Klärungshilfe', 'Teamentwicklung'],
-            bio: [
-                'Frank Titzer berät und begleitet seit 27 Jahren Menschen in Führungs- und Veränderungssituationen. Er ist Gründer und Mitgeschäftsführer von WTM Management Consulting.',
-                'Von seinen Kunden wird er als präsent, zugewandt, bodenständig und klar beschrieben – stets geerdet in einer wertschätzenden Grundhaltung.'
-            ],
-            qualifications: [
-                'M.A. Sprach- & Literaturwissenschaft/Pädagogik',
-                'Supervisor (DGSv)',
-                'Konfliktklärungshelfer nach Christoph Thomann'
-            ]
-        },
-        4: {
             name: 'Dr. Olaf Werner',
             role: 'Trainer & Coach',
+            // photo: PLACEHOLDER reused from old ID 4 code block logic if needed, but array has photo property.
+            // In the HTML it uses a placeholder. We keep photo property null or empty string to trigger placeholder logic in openTeamModal if desired, 
+            // OR we point to a placeholder image if one existed. 
+            // The logic says: if (member.photo) { ... } else { ...placeholder... }
+            // HTML for ID 3 uses a placeholder. So we can leave photo undefined or null.
+            photo: '',
             tags: ['Rhetorik', 'Selbstmanagement', 'Systemische Beratung'],
             bio: [
                 'Dr. Olaf Werner ist Trainer bei WTM Management Consulting mit Expertise in Selbstmanagement, KVP (Kontinuierlicher Verbesserungsprozess) und Rhetorik.',
@@ -389,135 +381,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Systemischer Berater'
             ]
         },
-        5: {
-            name: 'Hans-Jürgen Butz',
-            role: 'Trainer & Coach',
-            tags: ['Führung', 'Kommunikation', 'Teamentwicklung'],
-            bio: [
-                'Hans-Jürgen Butz ist erfahrener Trainer und Coach bei WTM Management Consulting.',
-                'Er begleitet Führungskräfte und Teams in ihrer Entwicklung.'
-            ],
-            qualifications: [
-                'Erfahrener Trainer',
-                'Systemischer Coach',
-                'Teamentwickler'
-            ]
-        },
-        6: {
-            name: 'Dr. Thomas von Sehlen',
-            role: 'Trainer & Berater',
-            tags: ['Strategie', 'Organisation', 'Führung'],
-            bio: [
-                'Dr. Thomas von Sehlen ist Trainer und Berater bei WTM Management Consulting.',
-                'Er unterstützt Unternehmen bei strategischen Herausforderungen.'
-            ],
-            qualifications: [
-                'Promotion',
-                'Strategieberater',
-                'Organisationsentwickler'
-            ]
-        },
-        7: {
-            name: 'Oliver Muhler',
-            role: 'Trainer & Coach',
-            tags: ['Training', 'Coaching', 'Entwicklung'],
-            bio: [
-                'Oliver Muhler ist Trainer und Coach bei WTM Management Consulting.',
-                'Er begleitet Menschen und Teams in ihrer beruflichen Entwicklung.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Coach',
-                'Entwicklungsbegleiter'
-            ]
-        },
-        8: {
-            name: 'Dr. Sarolf Sauer',
-            role: 'Trainer & Coach',
-            tags: ['Führung', 'Kommunikation', 'Persönlichkeit'],
-            bio: [
-                'Dr. Sarolf Sauer ist Trainer und Coach bei WTM Management Consulting.',
-                'Er unterstützt Führungskräfte bei ihrer persönlichen Entwicklung.'
-            ],
-            qualifications: [
-                'Promotion',
-                'Trainer',
-                'Coach'
-            ]
-        },
-        9: {
-            name: 'Dr. Tamara Thomsen',
-            role: 'Trainerin & Coach',
-            tags: ['Training', 'Coaching', 'Entwicklung'],
-            bio: [
-                'Dr. Tamara Thomsen ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie begleitet Menschen in ihrer beruflichen und persönlichen Entwicklung.'
-            ],
-            qualifications: [
-                'Promotion',
-                'Trainerin',
-                'Coach'
-            ]
-        },
-        10: {
-            name: 'Dr. Bettina Brendel',
-            role: 'Trainerin & Coach',
-            tags: ['Kommunikation', 'Führung', 'Persönlichkeit'],
-            bio: [
-                'Dr. Bettina Brendel ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie unterstützt Führungskräfte und Teams in ihrer Entwicklung.'
-            ],
-            qualifications: [
-                'Promotion',
-                'Trainerin',
-                'Coach'
-            ]
-        },
-        11: {
-            name: 'Markus Schramm',
-            role: 'Trainer & Coach',
-            tags: ['Training', 'Coaching', 'Teamentwicklung'],
-            bio: [
-                'Markus Schramm ist Trainer und Coach bei WTM Management Consulting.',
-                'Er begleitet Teams und Führungskräfte bei ihrer Entwicklung.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Coach',
-                'Teamentwickler'
-            ]
-        },
-        12: {
-            name: 'Marcus Schmidt',
-            role: 'Trainer & Berater',
-            tags: ['Führung', 'Haltung', 'Organisation'],
-            bio: [
-                'Marcus Schmidt ist Trainer und Berater bei WTM Management Consulting.',
-                'Er beschäftigt sich intensiv mit dem Thema Haltung und Führung in turbulenten Zeiten.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Berater',
-                'Führungsexperte'
-            ]
-        },
-        13: {
-            name: 'Andrea Hohlweck',
-            role: 'Trainerin & Coach',
-            tags: ['Training', 'Coaching', 'Entwicklung'],
-            bio: [
-                'Andrea Hohlweck ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie begleitet Menschen in ihrer beruflichen Entwicklung.'
-            ],
-            qualifications: [
-                'Trainerin',
-                'Coach',
-                'Entwicklungsbegleiterin'
-            ]
-        },
-        14: {
+        4: {
             name: 'Carmen Werner',
             role: 'Trainerin & Coach',
+            photo: 'assets/team/Carmen-Werner-Team_500x500.jpg',
             tags: ['Training', 'Coaching', 'Kommunikation'],
             bio: [
                 'Carmen Werner ist Trainerin und Coach bei WTM Management Consulting.',
@@ -529,27 +396,29 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Kommunikationsexpertin'
             ]
         },
-        15: {
-            name: 'Uta Barbara Vogel',
-            role: 'Trainerin & Coach',
-            tags: ['Training', 'Coaching', 'Persönlichkeit'],
+        5: {
+            name: 'Philipp Besch',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Team-Phillip_Besch-500x500-1.jpg',
+            tags: ['Training', 'Coaching', 'Entwicklung'],
             bio: [
-                'Uta Barbara Vogel ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie begleitet Menschen bei ihrer persönlichen Entwicklung.'
+                'Philipp Besch ist Trainer und Coach bei WTM Management Consulting.',
+                'Er begleitet Menschen in ihrer beruflichen Entwicklung.'
             ],
             qualifications: [
-                'Trainerin',
+                'Trainer',
                 'Coach',
-                'Persönlichkeitsentwicklerin'
+                'Entwicklungsbegleiter'
             ]
         },
-        16: {
-            name: 'Dr. Bettina Hailer',
+        6: {
+            name: 'Dr. Bettina Brendel',
             role: 'Trainerin & Coach',
-            tags: ['Führung', 'Kommunikation', 'Coaching'],
+            photo: 'assets/team/Team-Dr.-Bettina-Brendel-500x500-1.jpg',
+            tags: ['Kommunikation', 'Führung', 'Persönlichkeit'],
             bio: [
-                'Dr. Bettina Hailer ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie unterstützt Führungskräfte bei ihrer Entwicklung.'
+                'Dr. Bettina Brendel ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie unterstützt Führungskräfte und Teams in ihrer Entwicklung.'
             ],
             qualifications: [
                 'Promotion',
@@ -557,23 +426,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Coach'
             ]
         },
-        17: {
-            name: 'Maik Riess',
-            role: 'Trainer & Coach',
-            tags: ['Training', 'Coaching', 'Teamentwicklung'],
-            bio: [
-                'Maik Riess ist Trainer und Coach bei WTM Management Consulting.',
-                'Er begleitet Teams und Einzelpersonen in ihrer Entwicklung.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Coach',
-                'Teamentwickler'
-            ]
-        },
-        18: {
+        7: {
             name: 'Andreas Cludius',
             role: 'Trainer & Berater',
+            photo: 'assets/team/Cludius-Andreas-Team-500x500-1.jpg',
             tags: ['Vertrauen', 'Führung', 'Teamdynamik'],
             bio: [
                 'Andreas Cludius ist Trainer und Berater bei WTM Management Consulting.',
@@ -585,12 +441,58 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Führungsexperte'
             ]
         },
-        19: {
-            name: 'Hermann-Josef Leiders',
+        8: {
+            name: 'Dr. Bettina Hailer',
+            role: 'Trainerin & Coach',
+            photo: 'assets/team/Team-Dr.-Bettina-Hailer-500x500-1.jpg',
+            tags: ['Führung', 'Kommunikation', 'Coaching'],
+            bio: [
+                'Dr. Bettina Hailer ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie unterstützt Führungskräfte bei ihrer Entwicklung.'
+            ],
+            qualifications: [
+                'Promotion',
+                'Trainerin',
+                'Coach'
+            ]
+        },
+        9: {
+            name: 'Wolfgang Hoffmann',
             role: 'Trainer & Coach',
+            photo: 'assets/team/Team-Foto-Wolfgang-Hoffmann.jpg',
             tags: ['Training', 'Coaching', 'Führung'],
             bio: [
-                'Hermann-Josef Leiders ist Trainer und Coach bei WTM Management Consulting.',
+                'Wolfgang Hoffmann ist Trainer und Coach bei WTM Management Consulting.',
+                'Er unterstützt Führungskräfte und Teams.'
+            ],
+            qualifications: [
+                'Trainer',
+                'Coach',
+                'Führungsentwickler'
+            ]
+        },
+        10: {
+            name: 'Melanie Kubala',
+            role: 'Trainerin & Coach',
+            photo: 'assets/team/Team-Melanie-Kubala-500x500-1.jpg',
+            tags: ['Training', 'Entwicklung', 'Coaching'],
+            bio: [
+                'Melanie Kubala ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie begleitet Menschen und Organisationen in Veränderungsprozessen mit einem Fokus auf nachhaltige Entwicklung.'
+            ],
+            qualifications: [
+                'Zertifizierte Trainerin',
+                'Systemischer Coach',
+                'Personalentwicklerin'
+            ]
+        },
+        11: {
+            name: 'Hermann Josef Leiders',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Harry_Leiders_team_500x500.jpg',
+            tags: ['Training', 'Coaching', 'Führung'],
+            bio: [
+                'Hermann Josef Leiders ist Trainer und Coach bei WTM Management Consulting.',
                 'Er unterstützt Führungskräfte bei ihrer Entwicklung.'
             ],
             qualifications: [
@@ -599,9 +501,130 @@ document.addEventListener('DOMContentLoaded', () => {
                 'Führungsentwickler'
             ]
         },
+        12: {
+            name: 'Heike Neidhart',
+            role: 'Trainerin & Coach',
+            photo: 'assets/team/Profilbild_Heike_Neidhart_Team_500x500.jpg',
+            tags: ['Training', 'Coaching', 'Persönlichkeit'],
+            bio: [
+                'Heike Neidhart ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie begleitet Menschen bei ihrer persönlichen Entwicklung.'
+            ],
+            qualifications: [
+                'Trainerin',
+                'Coach',
+                'Persönlichkeitsentwicklerin'
+            ]
+        },
+        13: {
+            name: 'Gerold Pohl',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Gerold-Pohl-Team-500-x-500.jpg',
+            tags: ['Training', 'Coaching', 'Entwicklung'],
+            bio: [
+                'Gerold Pohl ist Trainer und Coach bei WTM Management Consulting.',
+                'Er unterstützt Menschen und Teams bei ihrer Entwicklung.'
+            ],
+            qualifications: [
+                'Trainer',
+                'Coach',
+                'Entwicklungsbegleiter'
+            ]
+        },
+        14: {
+            name: 'Jürgen Reus',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Reus-Juergen-Team-Portrait-500x500-1.jpg',
+            tags: ['Training', 'Expertise', 'Coaching'],
+            bio: [
+                'Jürgen Reus ist Trainer und Coach bei WTM Management Consulting.',
+                'Er bringt langjährige Expertise in Training und Coaching ein, um Potenziale zu entfalten.'
+            ],
+            qualifications: [
+                'Zertifizierter Trainer',
+                'Business Coach',
+                'Experte für Kommunikation'
+            ]
+        },
+        15: {
+            name: 'Maik Riess',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Team-Maik-Riess-500x500-1.jpg',
+            tags: ['Training', 'Coaching', 'Teamentwicklung'],
+            bio: [
+                'Maik Riess ist Trainer und Coach bei WTM Management Consulting.',
+                'Er begleitet Teams und Einzelpersonen in ihrer Entwicklung.'
+            ],
+            qualifications: [
+                'Trainer',
+                'Coach',
+                'Teamentwickler'
+            ]
+        },
+        16: {
+            name: 'Dr. Sarolf Sauer',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Sarolf_Sauer_Team_500x500.jpg',
+            tags: ['Führung', 'Kommunikation', 'Persönlichkeit'],
+            bio: [
+                'Dr. Sarolf Sauer ist Trainer und Coach bei WTM Management Consulting.',
+                'Er unterstützt Führungskräfte bei ihrer persönlichen Entwicklung.'
+            ],
+            qualifications: [
+                'Promotion',
+                'Trainer',
+                'Coach'
+            ]
+        },
+        17: {
+            name: 'Marcus Schmidt',
+            role: 'Trainer & Berater',
+            photo: 'assets/team/Team-Marcus-Schmidt-6-23.jpg',
+            tags: ['Führung', 'Haltung', 'Organisation'],
+            bio: [
+                'Marcus Schmidt ist Trainer und Berater bei WTM Management Consulting.',
+                'Er beschäftigt sich intensiv mit dem Thema Haltung und Führung in turbulenten Zeiten.'
+            ],
+            qualifications: [
+                'Trainer',
+                'Berater',
+                'Führungsexperte'
+            ]
+        },
+        18: {
+            name: 'Kirsten Schmiegelt',
+            role: 'Trainerin & Coach',
+            photo: 'assets/team/Kirsten_Schmiegelt_3-1.jpg',
+            tags: ['Training', 'Coaching', 'Kommunikation'],
+            bio: [
+                'Kirsten Schmiegelt ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie unterstützt Menschen in ihrer Kommunikation und Entwicklung.'
+            ],
+            qualifications: [
+                'Trainerin',
+                'Coach',
+                'Kommunikationsexpertin'
+            ]
+        },
+        19: {
+            name: 'Markus Schramm',
+            role: 'Trainer & Coach',
+            photo: 'assets/team/Markus-Schramm-Portrait-Team-500-x-500.jpg',
+            tags: ['Training', 'Coaching', 'Teamentwicklung'],
+            bio: [
+                'Markus Schramm ist Trainer und Coach bei WTM Management Consulting.',
+                'Er begleitet Teams und Führungskräfte bei ihrer Entwicklung.'
+            ],
+            qualifications: [
+                'Trainer',
+                'Coach',
+                'Teamentwickler'
+            ]
+        },
         20: {
             name: 'Heike Stalling',
             role: 'Trainerin & Coach',
+            photo: 'assets/team/Stalling-Heike-Team-Portrait-500x500-6-23.jpg',
             tags: ['Training', 'Coaching', 'Kommunikation'],
             bio: [
                 'Heike Stalling ist Trainerin und Coach bei WTM Management Consulting.',
@@ -614,73 +637,33 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
         },
         21: {
-            name: 'Gerold Pohl',
-            role: 'Trainer & Coach',
+            name: 'Dr. Tamara Thomsen',
+            role: 'Trainerin & Coach',
+            photo: 'assets/team/Tamara-Thomsen-Team_500x500.jpg',
             tags: ['Training', 'Coaching', 'Entwicklung'],
             bio: [
-                'Gerold Pohl ist Trainer und Coach bei WTM Management Consulting.',
-                'Er unterstützt Menschen und Teams bei ihrer Entwicklung.'
+                'Dr. Tamara Thomsen ist Trainerin und Coach bei WTM Management Consulting.',
+                'Sie begleitet Menschen in ihrer beruflichen und persönlichen Entwicklung.'
             ],
             qualifications: [
-                'Trainer',
-                'Coach',
-                'Entwicklungsbegleiter'
+                'Promotion',
+                'Trainerin',
+                'Coach'
             ]
         },
         22: {
-            name: 'Heike Neidhart',
+            name: 'Uta-Barbara Vogel',
             role: 'Trainerin & Coach',
+            photo: 'assets/team/Team-Vogel-Barbara-500x500-1.jpg',
             tags: ['Training', 'Coaching', 'Persönlichkeit'],
             bio: [
-                'Heike Neidhart ist Trainerin und Coach bei WTM Management Consulting.',
+                'Uta-Barbara Vogel ist Trainerin und Coach bei WTM Management Consulting.',
                 'Sie begleitet Menschen bei ihrer persönlichen Entwicklung.'
             ],
             qualifications: [
                 'Trainerin',
                 'Coach',
                 'Persönlichkeitsentwicklerin'
-            ]
-        },
-        23: {
-            name: 'Wolfgang Hoffmann',
-            role: 'Trainer & Coach',
-            tags: ['Training', 'Coaching', 'Führung'],
-            bio: [
-                'Wolfgang Hoffmann ist Trainer und Coach bei WTM Management Consulting.',
-                'Er unterstützt Führungskräfte und Teams.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Coach',
-                'Führungsentwickler'
-            ]
-        },
-        24: {
-            name: 'Philipp Besch',
-            role: 'Trainer & Coach',
-            tags: ['Training', 'Coaching', 'Entwicklung'],
-            bio: [
-                'Philipp Besch ist Trainer und Coach bei WTM Management Consulting.',
-                'Er begleitet Menschen in ihrer beruflichen Entwicklung.'
-            ],
-            qualifications: [
-                'Trainer',
-                'Coach',
-                'Entwicklungsbegleiter'
-            ]
-        },
-        25: {
-            name: 'Kirsten Schmiegelt',
-            role: 'Trainerin & Coach',
-            tags: ['Training', 'Coaching', 'Kommunikation'],
-            bio: [
-                'Kirsten Schmiegelt ist Trainerin und Coach bei WTM Management Consulting.',
-                'Sie unterstützt Menschen in ihrer Kommunikation und Entwicklung.'
-            ],
-            qualifications: [
-                'Trainerin',
-                'Coach',
-                'Kommunikationsexpertin'
             ]
         }
     };
