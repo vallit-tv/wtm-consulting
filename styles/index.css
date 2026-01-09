@@ -1740,34 +1740,38 @@ footer {
 .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
+    height: 600px;
+    /* Fixed height for balanced aspect ratio */
+    overflow: hidden;
+    /* Contain scroll to this area */
+    max-height: 80vh;
+    /* Responsive constraint */
 }
 
 .modal-photo {
-    background-color: var(--color-cream);
-    /* Sidebar background */
-    border-right: 1px solid var(--color-border);
-    /* Separator */
+    /* Reset to full height cover */
+    background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
     display: flex;
-    flex-direction: column;
-    /* Stack image at top */
     align-items: center;
-    justify-content: flex-start;
-    /* Align to top */
+    justify-content: center;
+    height: 100%;
     overflow: hidden;
 }
 
 .modal-photo img {
     width: 100%;
-    height: auto;
-    /* Natural aspect ratio, fills width */
+    height: 100%;
     object-fit: cover;
     object-position: center top;
-    border-bottom: 1px solid var(--color-border);
-    /* Separator below image */
 }
 
 .modal-details {
     padding: 2.5rem;
+    height: 100%;
+    overflow-y: auto;
+    /* Enable internal scrolling */
+    scrollbar-width: thin;
+    /* Firefox */
 }
 
 .modal-label {
