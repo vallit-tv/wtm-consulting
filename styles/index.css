@@ -1696,7 +1696,8 @@ footer {
     position: relative;
     background: var(--color-white);
     border-radius: var(--radius-lg);
-    max-width: 900px;
+    max-width: 1100px;
+    /* Increased width for better aspect ratio */
     width: 90%;
     max-height: 90vh;
     overflow-y: auto;
@@ -1740,16 +1741,11 @@ footer {
 .modal-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
-    height: 600px;
-    /* Fixed height for balanced aspect ratio */
-    overflow: hidden;
-    /* Contain scroll to this area */
-    max-height: 80vh;
-    /* Responsive constraint */
+    /* Removed fixed height/overflow to allow natural growth */
 }
 
 .modal-photo {
-    /* Reset to full height cover */
+    /* Full height cover */
     background: linear-gradient(135deg, var(--color-primary-light) 0%, var(--color-primary) 100%);
     display: flex;
     align-items: center;
@@ -1767,11 +1763,7 @@ footer {
 
 .modal-details {
     padding: 2.5rem;
-    height: 100%;
-    overflow-y: auto;
-    /* Enable internal scrolling */
-    scrollbar-width: thin;
-    /* Firefox */
+    /* Removed internal scrolling */
 }
 
 .modal-label {
