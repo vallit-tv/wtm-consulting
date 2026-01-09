@@ -266,28 +266,58 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactForm = document.querySelector('.contact-form');
 
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
+        contactForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const btn = contactForm.querySelector('button[type="submit"]');
             const originalText = btn.textContent;
+
+            // Collect form data
+            const formData = {
+                name: document.getElementById('name').value,
+                company: document.getElementById('company').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
 
             btn.textContent = 'Wird gesendet...';
             btn.disabled = true;
             btn.style.opacity = '0.7';
 
-            // Simulate sending
-            setTimeout(() => {
-                btn.textContent = 'Nachricht gesendet ✓';
-                btn.style.backgroundColor = '#3D7A77';
-                btn.style.opacity = '1';
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
 
-                setTimeout(() => {
-                    btn.textContent = originalText;
-                    btn.disabled = false;
-                    btn.style.backgroundColor = '';
+                if (response.ok) {
+                    btn.textContent = 'Nachricht gesendet ✓';
+                    btn.style.backgroundColor = '#3D7A77';
+                    btn.style.opacity = '1';
                     contactForm.reset();
-                }, 2500);
-            }, 1200);
+                } else {
+                    const errorData = await response.json();
+                    btn.textContent = 'Fehler aufgetreten';
+                    btn.style.backgroundColor = '#ef4444';
+                    console.error('Submission error:', errorData);
+                    alert('Es gab einen Fehler beim Senden. Bitte versuchen Sie es später erneut.');
+                }
+            } catch (error) {
+                console.error('Network error:', error);
+                btn.textContent = 'Netzwerkfehler';
+                btn.style.backgroundColor = '#ef4444';
+                alert('Es gab einen Fehler beim Senden. Bitte überprüfen Sie Ihre Internetverbindung.');
+            }
+
+            setTimeout(() => {
+                btn.textContent = originalText;
+                btn.disabled = false;
+                btn.style.backgroundColor = '';
+                btn.style.opacity = '';
+            }, 3000);
         });
     }
 
