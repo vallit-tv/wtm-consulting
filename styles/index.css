@@ -1399,8 +1399,9 @@ footer {
 }
 
 .training-card {
-    min-width: 400px;
-    /* Wider card for premium feel */
+    width: 340px;
+    min-width: 340px;
+    max-width: 340px;
     background: var(--color-white);
     padding: 2.5rem;
     border-radius: var(--radius-md);
@@ -1418,7 +1419,9 @@ footer {
 
 @media (max-width: 500px) {
     .training-card {
+        width: 85vw;
         min-width: 85vw;
+        max-width: 85vw;
         /* Full width on mobile */
         padding: 1.5rem;
     }
