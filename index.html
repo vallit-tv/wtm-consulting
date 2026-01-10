@@ -192,16 +192,30 @@
 
             <div class="training-tabs reveal">
                 <button class="training-tab active" data-category="leadership">Führung</button>
-                <button class="training-tab" data-category="communication">Kommunikation</button>
-                <button class="training-tab" data-category="self">Selbst­kompetenz</button>
                 <button class="training-tab" data-category="change">Change</button>
-                <button class="training-tab" data-category="qualification">Qualifizierung</button>
+                <button class="training-tab" data-category="health">Gesundheit</button>
+                <button class="training-tab" data-category="communication">Kommunikation</button>
+                <button class="training-tab" data-category="management">Management</button>
             </div>
 
             <!-- Dynamic Training Grid Container -->
             <div id="trainings-container" class="active">
-                <div class="training-grid" id="seminar-grid">
-                    <!-- Seminars will be loaded here dynamically via JS -->
+                <div class="training-carousel-wrapper">
+                    <button class="carousel-btn prev" aria-label="Previous">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+
+                    <div class="training-grid" id="seminar-grid">
+                        <!-- Seminars will be loaded here dynamically via JS -->
+                    </div>
+
+                    <button class="carousel-btn next" aria-label="Next">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
                 </div>
             </div>
 

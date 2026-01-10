@@ -14,7 +14,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Lebensphasen Berufliche Orientierung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Lebensphasen Berufliche Orientierung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Lebensphasen Berufliche Orientierung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -29,13 +29,13 @@ const seminarsData = {
     "remote-selling": {
         id: "remote-selling",
         title: "Remote Selling",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Remote Selling - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Remote Selling' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Remote Selling' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Remote Selling aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -50,13 +50,13 @@ const seminarsData = {
     "selbstsicherheit-und-durchsetzungsvermoegen": {
         id: "selbstsicherheit-und-durchsetzungsvermoegen",
         title: "Selbstsicherheit Und Durchsetzungsvermoegen",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Selbstsicherheit Und Durchsetzungsvermoegen - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstsicherheit Und Durchsetzungsvermoegen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbstsicherheit Und Durchsetzungsvermoegen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbstsicherheit Und Durchsetzungsvermoegen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -71,13 +71,13 @@ const seminarsData = {
     "selbstvertrauen-das-fundament-fuer-leistungsfaehigkeit": {
         id: "selbstvertrauen-das-fundament-fuer-leistungsfaehigkeit",
         title: "Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -92,13 +92,13 @@ const seminarsData = {
     "gesundheit": {
         id: "gesundheit",
         title: "Gesundheit",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Gesundheit - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesundheit' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Gesundheit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Gesundheit aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -113,13 +113,13 @@ const seminarsData = {
     "selbstverantwortung-und-kritikkompetenz": {
         id: "selbstverantwortung-und-kritikkompetenz",
         title: "Selbstverantwortung Und Kritikkompetenz",
-        category: "self",
+        category: "leadership",
         badge: "Seminar",
         shortDescription: "Selbstverantwortung Und Kritikkompetenz - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstverantwortung Und Kritikkompetenz' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbstverantwortung Und Kritikkompetenz' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbstverantwortung Und Kritikkompetenz aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -140,7 +140,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -155,13 +155,13 @@ const seminarsData = {
     "beraterausbildung": {
         id: "beraterausbildung",
         title: "Beraterausbildung",
-        category: "qualification",
+        category: "management",
         badge: "Ausbildung",
         shortDescription: "Beraterausbildung - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Beraterausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Beraterausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Beraterausbildung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -182,7 +182,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 30 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 30 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 30 Plus aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -203,7 +203,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 40 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 40 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 40 Plus aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -224,7 +224,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 50 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 50 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 50 Plus aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -239,13 +239,13 @@ const seminarsData = {
     "besprechungsmanagement": {
         id: "besprechungsmanagement",
         title: "Besprechungsmanagement",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Besprechungsmanagement - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Besprechungsmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Besprechungsmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Besprechungsmanagement aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -266,7 +266,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 60 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 60 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 60 Plus aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -281,13 +281,13 @@ const seminarsData = {
     "betriebsorganisation": {
         id: "betriebsorganisation",
         title: "Betriebsorganisation",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Betriebsorganisation - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Betriebsorganisation' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Betriebsorganisation' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Betriebsorganisation aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -302,13 +302,13 @@ const seminarsData = {
     "bewerbertraining": {
         id: "bewerbertraining",
         title: "Bewerbertraining",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Bewerbertraining - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Bewerbertraining' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Bewerbertraining' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Bewerbertraining aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -322,23 +322,24 @@ const seminarsData = {
     },
     "bwl-fuer-nicht-bwler": {
         id: "bwl-fuer-nicht-bwler",
-        title: "Bwl Fuer Nicht Bwler",
-        category: "leadership",
+        title: "BWL für Nicht-BWLer",
+        category: "management",
         badge: "Seminar",
-        shortDescription: "Bwl Fuer Nicht Bwler - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Betriebswirtschaftliche Zusammenhänge verstehen und sicher mitreden.",
+        details: ["Grundlagen", "Finanzen", "Kennzahlen"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Bwl Fuer Nicht Bwler' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "Gewinn, Umsatz, Erlöse, ROI – wo ist der Unterschied? Was bedeuten diese Kennziffern? Warum versteht mein zahlenorientierter Gesprächspartner nicht, dass meine Lösung die beste ist? In diesem Seminar erwerben Sie das nötige BWL-Wissen, um Entscheidungen besser zu fundieren und zu kommunizieren.",
             ziele: [
-                "Kernkompetenzen im Bereich Bwl Fuer Nicht Bwler aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Zentrale Bereiche betriebswirtschaftlichen Know-hows kennenlernen",
+                "Die 'spezielle Denke' von Betriebswirten verstehen",
+                "Budgets, Erfolgsrechnungen und Kennziffern verstehen und hinterfragen",
+                "Gewinn- und Verlustrechnungen sowie Bilanzen interpretieren",
+                "Eigene Angebotskalkulationen vornehmen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Bwl Fuer Nicht Bwler souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Grundbegriffe der BWL. Lesen und Verstehen von Bilanzen und GuV. Investitionsrechnung. Kosten- und Leistungsrechnung. Controlling-Instrumente. Kommunikation mit Kaufleuten.",
+            nutzen: "Sie stärken Ihre Kompetenz für Gespräche mit Kollegen in kaufmännischen Funktionen und mit Kunden. Sie vermeiden Missverständnisse und können wirtschaftliche Zusammenhänge besser einschätzen.",
+            zielgruppe: "Alle, die fitter in BWL werden möchten und noch mehr auf Augenhöhe mit Fachleuten kommunizieren möchten."
         }
     },
     "change": {
@@ -366,13 +367,13 @@ const seminarsData = {
     "change-kommunikation-professionelle-kommunikation-im-veraenderungsprozess": {
         id: "change-kommunikation-professionelle-kommunikation-im-veraenderungsprozess",
         title: "Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess",
-        category: "communication",
+        category: "change",
         badge: "Seminar",
         shortDescription: "Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -393,7 +394,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Chefperspektive Wie Denkt Mein Chef Meine Chefin' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Chefperspektive Wie Denkt Mein Chef Meine Chefin' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Chefperspektive Wie Denkt Mein Chef Meine Chefin aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -408,13 +409,13 @@ const seminarsData = {
     "coachingausbildung": {
         id: "coachingausbildung",
         title: "Coachingausbildung",
-        category: "qualification",
+        category: "management",
         badge: "Ausbildung",
         shortDescription: "Coachingausbildung - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Coachingausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Coachingausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Coachingausbildung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -435,7 +436,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Coaching Basics Fuer Agile Scrum Master' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Coaching Basics Fuer Agile Scrum Master' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Coaching Basics Fuer Agile Scrum Master aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -456,7 +457,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Delegation Das Handwerk Der Fuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Delegation Das Handwerk Der Fuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Delegation Das Handwerk Der Fuehrung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -477,7 +478,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Erfolgsfaktor Vertrauen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Erfolgsfaktor Vertrauen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Erfolgsfaktor Vertrauen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -491,23 +492,25 @@ const seminarsData = {
     },
     "fuehren-in-beziehung": {
         id: "fuehren-in-beziehung",
-        title: "Fuehren In Beziehung",
+        title: "Führen in Beziehung",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Fuehren In Beziehung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Vertrauen als Basis von Führung. Beziehungsgestaltung als Schlüsselkompetenz.",
+        details: ["Präsenz", "Reflexion", "Praxis"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehren In Beziehung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "Die Aufgabe von Organisationen ist es zu entscheiden, die von Menschen ist es zu kommunizieren. In diesem Spannungsfeld bewegt sich jede Führungskraft mehr oder weniger sicher. Umso wichtiger ist der Aufbau einer vertrauensvollen Führungsbeziehung. Wie ermögliche ich Beziehungen in meiner Rolle als Führungskraft? Und welche? In diesem Seminar arbeiten wir an der Basis wirksamer Führung.",
             ziele: [
-                "Kernkompetenzen im Bereich Fuehren In Beziehung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Wissen, in welchen Rollenwelten Sie wie führen können",
+                "Situativ angemessener Umgang mit Führung",
+                "Emotionale Bedürfnisse jenseits der Kommunikationsregeln erspüren",
+                "Grundlagen der persönlichen Autorität kennen",
+                "Schwierige Situationen ansprechen können",
+                "Bild von Führung in konkretes Handeln übersetzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fuehren In Beziehung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Reflexion des eigenen Führungsverhaltens. Beziehungsmodelle in der Führung. Umgang mit Nähe und Distanz. Vertrauen aufbauen und halten. Schwierige Gespräche führen. Die Rolle der Persönlichkeit.",
+            nutzen: "Sie können führen, ohne Positionsmacht gebrauchen zu müssen. Sie kennen die Grundlagen ihrer persönlichen Autorität und kennen Ihr Bild einer wirksamen Führungspersönlichkeit.",
+            zielgruppe: "Alle Menschen, die auf Augenhöhe führen möchten."
         }
     },
     "fuehren-durch-persoenlichkeit": {
@@ -519,7 +522,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehren Durch Persoenlichkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Fuehren Durch Persoenlichkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Fuehren Durch Persoenlichkeit aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -534,13 +537,13 @@ const seminarsData = {
     "8d-problemloesung": {
         id: "8d-problemloesung",
         title: "8D Problemloesung",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "8D Problemloesung - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema '8D Problemloesung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema '8D Problemloesung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich 8D Problemloesung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -561,7 +564,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehren Zwischen Agieren Und Reagieren' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Fuehren Zwischen Agieren Und Reagieren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Fuehren Zwischen Agieren Und Reagieren aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -582,7 +585,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -603,7 +606,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehrungssimulation Krankenhaus Am Offenen Herzen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Fuehrungssimulation Krankenhaus Am Offenen Herzen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Fuehrungssimulation Krankenhaus Am Offenen Herzen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -624,7 +627,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gekonnt Visualisieren An Flipchart Und Pinnwand' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Gekonnt Visualisieren An Flipchart Und Pinnwand' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Gekonnt Visualisieren An Flipchart Und Pinnwand aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -645,7 +648,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Genius' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Genius' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Genius aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -666,7 +669,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesunde Selbstfuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Gesunde Selbstfuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Gesunde Selbstfuehrung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -681,13 +684,13 @@ const seminarsData = {
     "gesundheitsorientiertes-fuehren": {
         id: "gesundheitsorientiertes-fuehren",
         title: "Gesundheitsorientiertes Fuehren",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Gesundheitsorientiertes Fuehren - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesundheitsorientiertes Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Gesundheitsorientiertes Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Gesundheitsorientiertes Fuehren aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -708,7 +711,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gruppendynamik In Teams' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Gruppendynamik In Teams' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Gruppendynamik In Teams aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -729,7 +732,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Hybridesarbeiten' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Hybridesarbeiten' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Hybridesarbeiten aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -744,13 +747,13 @@ const seminarsData = {
     "intuition-ist-doch-logisch": {
         id: "intuition-ist-doch-logisch",
         title: "Intuition Ist Doch Logisch",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Intuition Ist Doch Logisch - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Intuition Ist Doch Logisch' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Intuition Ist Doch Logisch' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Intuition Ist Doch Logisch aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -771,7 +774,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Kommunikation Im Zielgruppenspezifischen Design' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Kommunikation Im Zielgruppenspezifischen Design' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Kommunikation Im Zielgruppenspezifischen Design aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -786,13 +789,13 @@ const seminarsData = {
     "komplexitaet-meistern-entscheiden-in-dynamischen-situationen": {
         id: "komplexitaet-meistern-entscheiden-in-dynamischen-situationen",
         title: "Komplexitaet Meistern Entscheiden In Dynamischen Situationen",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Komplexitaet Meistern Entscheiden In Dynamischen Situationen - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Komplexitaet Meistern Entscheiden In Dynamischen Situationen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Komplexitaet Meistern Entscheiden In Dynamischen Situationen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Komplexitaet Meistern Entscheiden In Dynamischen Situationen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -807,13 +810,13 @@ const seminarsData = {
     "konflikterkennung-behandlung-praevention": {
         id: "konflikterkennung-behandlung-praevention",
         title: "Konflikterkennung Behandlung Praevention",
-        category: "leadership",
+        category: "communication",
         badge: "Seminar",
         shortDescription: "Konflikterkennung Behandlung Praevention - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Konflikterkennung Behandlung Praevention' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Konflikterkennung Behandlung Praevention' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Konflikterkennung Behandlung Praevention aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -828,13 +831,13 @@ const seminarsData = {
     "kreativitaetstechniken": {
         id: "kreativitaetstechniken",
         title: "Kreativitaetstechniken",
-        category: "self",
+        category: "leadership",
         badge: "Seminar",
         shortDescription: "Kreativitaetstechniken - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Kreativitaetstechniken' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Kreativitaetstechniken' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Kreativitaetstechniken aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -849,13 +852,13 @@ const seminarsData = {
     "koerperliche-und-geistige-leistungsfaehigkeit-steigern": {
         id: "koerperliche-und-geistige-leistungsfaehigkeit-steigern",
         title: "Koerperliche Und Geistige Leistungsfaehigkeit Steigern",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Koerperliche Und Geistige Leistungsfaehigkeit Steigern - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Koerperliche Und Geistige Leistungsfaehigkeit Steigern' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Koerperliche Und Geistige Leistungsfaehigkeit Steigern' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Koerperliche Und Geistige Leistungsfaehigkeit Steigern aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -870,13 +873,13 @@ const seminarsData = {
     "krisenkommunikation": {
         id: "krisenkommunikation",
         title: "Krisenkommunikation",
-        category: "communication",
+        category: "change",
         badge: "Seminar",
         shortDescription: "Krisenkommunikation - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Krisenkommunikation' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Krisenkommunikation' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Krisenkommunikation aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -891,13 +894,13 @@ const seminarsData = {
     "krisenmanagement-fuer-projektmanager": {
         id: "krisenmanagement-fuer-projektmanager",
         title: "Krisenmanagement Fuer Projektmanager",
-        category: "leadership",
+        category: "change",
         badge: "Seminar",
         shortDescription: "Krisenmanagement Fuer Projektmanager - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Krisenmanagement Fuer Projektmanager' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Krisenmanagement Fuer Projektmanager' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Krisenmanagement Fuer Projektmanager aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -918,7 +921,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Laterales Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Laterales Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Laterales Fuehren aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -934,7 +937,7 @@ const seminarsData = {
         id: "leadership-basics",
         title: "Leadership Basics",
         category: "leadership",
-        badge: "Seminar",
+        badge: "Grundlagen",
         shortDescription: "Die Grundlagen wirksamer Führung: Führungsverständnis, Selbstmanagement, Kommunikation, Delegation und konstruktiver Umgang mit Konflikten.",
         details: ["3 Tage Präsenz", "Max. 12 Teilnehmer", "Zertifikat"],
         heroImage: "assets/hero-meeting.jpg",
@@ -961,7 +964,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Medientraining Und Professionelles Auftreten Vor Der Kamera' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Medientraining Und Professionelles Auftreten Vor Der Kamera' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Medientraining Und Professionelles Auftreten Vor Der Kamera aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -982,7 +985,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Mind Mapping Visualisierungstechniken' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Mind Mapping Visualisierungstechniken' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Mind Mapping Visualisierungstechniken aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1003,7 +1006,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Mit Den Fragen Beginnt Das Verstehen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Mit Den Fragen Beginnt Das Verstehen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Mit Den Fragen Beginnt Das Verstehen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1024,7 +1027,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Multiple Leadership Mehrdimensionale Fuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Multiple Leadership Mehrdimensionale Fuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Multiple Leadership Mehrdimensionale Fuehrung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1041,20 +1044,21 @@ const seminarsData = {
         title: "Moderation",
         category: "communication",
         badge: "Seminar",
-        shortDescription: "Moderation - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Gruppenprozesse effektiv steuern und Ergebnisse sichern.",
+        details: ["2 Tage", "Methodentraining", "Praxis"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Moderation' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "Meetings leiten, Workshops gestalten, Ergebnissicherung betreiben - Moderationskompetenz ist heute in vielen Rollen gefragt. In diesem Seminar lernen Sie das Handwerkszeug für erfolgreiche Moderationen.",
             ziele: [
-                "Kernkompetenzen im Bereich Moderation aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Mit der Moderationsmethode in kurzer Zeit hervorragende Ergebnisse erzielen",
+                "Die Rolle als Moderator verstehen und ausfüllen",
+                "Moderationen professionell vorbereiten",
+                "Teilnehmer mit all ihren Erfahrungen und ihrer Kreativität einbeziehen",
+                "Mit schwierigen Situationen professionell umgehen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Moderation souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Rolle und Haltung des Moderators. Phasen der Moderation. Methoden für Einstieg, Sammlung, Auswahl und Abschluss. Umgang mit Störungen und Vielrednern. Visualisierung am Flipchart.",
+            nutzen: "Sie lernen, Ihre Rolle als Moderator sicher auszufüllen, planen Moderationen strukturiert und gehen souverän mit Stolpersteinen um. Ihre Besprechungen werden effizienter und ergebnisorientierter.",
+            zielgruppe: "Alle Personen, die die Moderatorenrolle ausüben (wollen), Projektleiter, Führungskräfte."
         }
     },
     "praesentieren-verstaendlich-erklaeren": {
@@ -1066,7 +1070,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Praesentieren Verstaendlich Erklaeren' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Praesentieren Verstaendlich Erklaeren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Praesentieren Verstaendlich Erklaeren aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1080,23 +1084,24 @@ const seminarsData = {
     },
     "projektmanagement-basistraining": {
         id: "projektmanagement-basistraining",
-        title: "Projektmanagement Basistraining",
-        category: "leadership",
+        title: "Projektmanagement - Basistraining",
+        category: "management",
         badge: "Seminar",
-        shortDescription: "Projektmanagement Basistraining - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Grundlagen für professionelles Projektmanagement. Methoden, Phasen und Tools.",
+        details: ["Basistraining", "Fallstudie", "Methoden"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Projektmanagement Basistraining' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "Projekte sind heute Alltag in den meisten Unternehmen. Doch oft fehlt das methodische Handwerkszeug. In diesem Basistraining erwerben Sie praxisnah die Grundlagen für ein professionelles Projektmanagement.",
             ziele: [
-                "Kernkompetenzen im Bereich Projektmanagement Basistraining aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Vorgehen bei der Auftragsklärung",
+                "Bedeutung des offiziellen Projektauftrags",
+                "Stakeholder- und Risikoanalyse durchführen",
+                "Werkzeuge für verschiedene Projektphasen kennen",
+                "Zeit, Kosten, Leistungsumfang und Qualität steuern"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Projektmanagement Basistraining souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Projektphasen und -lebenszyklus. Projektziele definieren (SMART). Projektstrukturplan. Termin- und Ressourcenplanung. Risikomanagement. Projektcontrolling und Reporting. Fallstudie in Gruppenarbeit.",
+            nutzen: "Sie lernen ein systematisches Vorgehen in Projekten und praxiserprobte Methoden kennen. Sie erhalten Anregungen für Vorlagen und vermeiden typische Fehler.",
+            zielgruppe: "Projektleiter, Projektteam-Mitglieder und Mitarbeiter aus der Fachabteilung, die in Projekten mitarbeiten."
         }
     },
     "remote-work-arbeiten-im-home-office-und-unterwegs": {
@@ -1108,7 +1113,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Remote Work Arbeiten Im Home Office Und Unterwegs' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Remote Work Arbeiten Im Home Office Und Unterwegs' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Remote Work Arbeiten Im Home Office Und Unterwegs aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1150,7 +1155,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Scheitern Als Kunst Wendepunkte Gestalten' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Scheitern Als Kunst Wendepunkte Gestalten' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Scheitern Als Kunst Wendepunkte Gestalten aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1171,7 +1176,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Schriftliche Kommunikation Der Moderne Stil' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Schriftliche Kommunikation Der Moderne Stil' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Schriftliche Kommunikation Der Moderne Stil aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1192,7 +1197,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbsterkenntnis Und Selbstfuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbsterkenntnis Und Selbstfuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbsterkenntnis Und Selbstfuehrung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1207,13 +1212,13 @@ const seminarsData = {
     "selbstmanagement": {
         id: "selbstmanagement",
         title: "Selbstmanagement",
-        category: "leadership",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Selbstmanagement - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbstmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbstmanagement aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1228,13 +1233,13 @@ const seminarsData = {
     "selbstmitgefuehl": {
         id: "selbstmitgefuehl",
         title: "Selbstmitgefuehl",
-        category: "self",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Selbstmitgefuehl - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstmitgefuehl' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Selbstmitgefuehl' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Selbstmitgefuehl aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1249,13 +1254,13 @@ const seminarsData = {
     "soft-skills-fuer-controller-und-zahlenprofis": {
         id: "soft-skills-fuer-controller-und-zahlenprofis",
         title: "Soft Skills Fuer Controller Und Zahlenprofis",
-        category: "self",
+        category: "leadership",
         badge: "Seminar",
         shortDescription: "Soft Skills Fuer Controller Und Zahlenprofis - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Soft Skills Fuer Controller Und Zahlenprofis' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Soft Skills Fuer Controller Und Zahlenprofis' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Soft Skills Fuer Controller Und Zahlenprofis aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1270,13 +1275,13 @@ const seminarsData = {
     "stimme-und-koerpersprache": {
         id: "stimme-und-koerpersprache",
         title: "Stimme Und Koerpersprache",
-        category: "communication",
+        category: "health",
         badge: "Seminar",
         shortDescription: "Stimme Und Koerpersprache - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Stimme Und Koerpersprache' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Stimme Und Koerpersprache' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Stimme Und Koerpersprache aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1291,13 +1296,13 @@ const seminarsData = {
     "trainerausbildung": {
         id: "trainerausbildung",
         title: "Trainerausbildung",
-        category: "qualification",
+        category: "management",
         badge: "Ausbildung",
         shortDescription: "Trainerausbildung - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Trainerausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Trainerausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Trainerausbildung aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1312,13 +1317,13 @@ const seminarsData = {
     "verkaufen-reloaded": {
         id: "verkaufen-reloaded",
         title: "Verkaufen Reloaded",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Verkaufen Reloaded - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Verkaufen Reloaded' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Verkaufen Reloaded' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Verkaufen Reloaded aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1339,7 +1344,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Vom Mitarbeiter Zur Fuehrungskraft' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Vom Mitarbeiter Zur Fuehrungskraft' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Vom Mitarbeiter Zur Fuehrungskraft aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1353,35 +1358,36 @@ const seminarsData = {
     },
     "widerstandsfaehigkeit-staerken": {
         id: "widerstandsfaehigkeit-staerken",
-        title: "Widerstandsfaehigkeit Staerken",
-        category: "self",
+        title: "Widerstandsfähigkeit stärken",
+        category: "health",
         badge: "Seminar",
-        shortDescription: "Widerstandsfaehigkeit Staerken - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Resilienztraining für den Umgang mit Stress und Herausforderungen.",
+        details: ["Resilienz", "Achtsamkeit", "Mindset"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Widerstandsfaehigkeit Staerken' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "Die wichtige Frage lautet: 'Was macht mich eigentlich widerstandsfähig?' Eine wichtige Erkenntnis für viele gestresste Menschen ist: 'Mein Stress ist hausgemacht'. Wie sehr beeinflussen uns Glaubenssätze, Denk- und Verhaltensmuster? In diesem Seminar stärken wir Ihre psychische Widerstandskraft.",
             ziele: [
-                "Kernkompetenzen im Bereich Widerstandsfaehigkeit Staerken aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Erkennen eigener Denkfallen und Glaubenssätze",
+                "Stärkung der Fähigkeit zur Perspektivübernahme",
+                "Erkennen, wie Sie sich in kritischen Situationen abgrenzen können",
+                "Stärkung Ihres Growth-Mindsets",
+                "Entwicklung von Gelassenheit"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Widerstandsfaehigkeit Staerken souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Grundlagen der Resilienz. Die 7 Säulen der Widerstandskraft. Analyse persönlicher Stressverstärker. Achtsamkeitsübungen. Strategien zur Bewältigung von Krisen. Transfer in den Alltag.",
+            nutzen: "Sie kommen Ihren irrationalen Überzeugungen auf die Spur und erhalten Anregungen zum Neu-Denken. Sie finden versteckte Ressourcen, indem Sie lernen, Situationen anders wahrzunehmen und zu bewerten.",
+            zielgruppe: "Alle Menschen, die ihre Fähigkeit zur Resilienz stärken möchten."
         }
     },
     "zeitmanagement": {
         id: "zeitmanagement",
         title: "Zeitmanagement",
-        category: "leadership",
+        category: "management",
         badge: "Seminar",
         shortDescription: "Zeitmanagement - praxisnah und fundiert vermittelt.",
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Zeitmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Zeitmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Zeitmanagement aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",
@@ -1402,7 +1408,7 @@ const seminarsData = {
         details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Zusammenarbeit Von Generationen' erlernen Sie fundierte Strategien und Techniken für die Praxis. Wir vermitteln Ihnen das nötige Wissen, um in diesem Bereich sicher und kompetent zu agieren.",
+            intro: "In diesem Seminar zum Thema 'Zusammenarbeit Von Generationen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
             ziele: [
                 "Kernkompetenzen im Bereich Zusammenarbeit Von Generationen aufbauen",
                 "Praktische Methoden und Werkzeuge kennenlernen",

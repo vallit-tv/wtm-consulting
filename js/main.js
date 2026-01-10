@@ -241,6 +241,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // =========================================
+    // TRAINING CAROUSEL LOGIC
+    // =========================================
+    const carouselPrev = document.querySelector('.carousel-btn.prev');
+    const carouselNext = document.querySelector('.carousel-btn.next');
+
+    if (carouselPrev && carouselNext && seminarGrid) {
+        carouselPrev.addEventListener('click', () => {
+            seminarGrid.scrollBy({ left: -450, behavior: 'smooth' });
+        });
+
+        carouselNext.addEventListener('click', () => {
+            seminarGrid.scrollBy({ left: 450, behavior: 'smooth' });
+        });
+    }
+
+    // =========================================
     // ACCORDION
     // =========================================
     const accordionHeaders = document.querySelectorAll('.accordion-header');
