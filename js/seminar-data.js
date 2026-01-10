@@ -7,23 +7,23 @@
 const seminarsData = {
     "lebensphasen-berufliche-orientierung": {
         id: "lebensphasen-berufliche-orientierung",
-        title: "Lebensphasen Berufliche Orientierung",
+        title: "Lebensphasen & Berufliche Orientierung",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Lebensphasen Berufliche Orientierung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Karriereplanung im Wandel der Lebensphasen – Orientierung finden und bewusste Entscheidungen treffen.",
+        details: ["1-2 Tage", "Reflexion", "Coaching"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Lebensphasen Berufliche Orientierung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Jede Lebensphase bringt neue Herausforderungen und Chancen für die berufliche Entwicklung. In diesem Seminar reflektieren Sie Ihre aktuelle Situation und entwickeln klare Perspektiven.",
             ziele: [
-                "Kernkompetenzen im Bereich Lebensphasen Berufliche Orientierung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Eigene Stärken und Ressourcen erkennen",
+                "Berufliche Ziele klären und priorisieren",
+                "Entscheidungskompetenz stärken",
+                "Konkrete nächste Schritte planen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Lebensphasen Berufliche Orientierung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Standortbestimmung. Wertearbeit. Stärken-Schwächen-Analyse. Zukunftsvisionen entwickeln. Entscheidungsmethoden. Aktionsplanung.",
+            nutzen: "Sie gewinnen Klarheit über Ihre berufliche Zukunft und treffen fundierte Entscheidungen für Ihre Karriere.",
+            zielgruppe: "Fach- und Führungskräfte in Orientierungsphasen sowie alle, die ihre Karriere bewusst gestalten möchten."
         }
     },
     "remote-selling": {
@@ -31,209 +31,209 @@ const seminarsData = {
         title: "Remote Selling",
         category: "management",
         badge: "Seminar",
-        shortDescription: "Remote Selling - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Erfolgreich verkaufen auf Distanz – digitale Vertriebsgespräche professionell führen und Kunden überzeugen.",
+        details: ["1-2 Tage Online", "Videotraining", "Praxisfälle"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Remote Selling' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Der virtuelle Vertrieb erfordert neue Kompetenzen. Wie bauen Sie Beziehungen auf, wenn Sie den Kunden nicht persönlich treffen? Wie überzeugen Sie am Bildschirm?",
             ziele: [
-                "Kernkompetenzen im Bereich Remote Selling aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Virtuelle Präsenz und Wirkung optimieren",
+                "Beziehungsaufbau im digitalen Raum meistern",
+                "Technische Tools souverän einsetzen",
+                "Abschlüsse online erzielen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Remote Selling souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Besonderheiten virtueller Kommunikation. Kamera und Ton optimal nutzen. Visualisierung im Online-Gespräch. Einwandbehandlung digital. Closing-Techniken.",
+            nutzen: "Sie verkaufen auch auf Distanz erfolgreich und bauen langfristige Kundenbeziehungen auf.",
+            zielgruppe: "Vertriebsmitarbeiter, Account Manager und alle, die virtuell verkaufen."
         }
     },
     "selbstsicherheit-und-durchsetzungsvermoegen": {
         id: "selbstsicherheit-und-durchsetzungsvermoegen",
-        title: "Selbstsicherheit Und Durchsetzungsvermoegen",
+        title: "Selbstsicherheit & Durchsetzungsvermögen",
         category: "health",
         badge: "Seminar",
-        shortDescription: "Selbstsicherheit Und Durchsetzungsvermoegen - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Souverän auftreten und die eigene Position vertreten – ohne andere zu überfahren oder sich selbst zu verlieren.",
+        details: ["2 Tage Präsenz", "Übungen", "Feedback"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstsicherheit Und Durchsetzungsvermoegen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Selbstsicherheit ist die Basis für beruflichen Erfolg. Wie gelingt es, die eigene Meinung zu vertreten, ohne aggressiv zu wirken? Wie setzen Sie sich durch, ohne Beziehungen zu beschädigen?",
             ziele: [
-                "Kernkompetenzen im Bereich Selbstsicherheit Und Durchsetzungsvermoegen aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Eigene Stärken und Unsicherheiten erkennen",
+                "Selbstbewusst kommunizieren und auftreten",
+                "Grenzen setzen und Nein sagen können",
+                "Konstruktiv mit Kritik umgehen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Selbstsicherheit Und Durchsetzungsvermoegen souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Selbstbild und Fremdbild. Körpersprache und Stimme. Assertives Verhalten. Umgang mit Manipulation. Grenzen setzen. Konfliktsituationen meistern.",
+            nutzen: "Sie treten souveräner auf, vertreten Ihre Interessen klarer und gewinnen an Ausstrahlung und Durchsetzungskraft.",
+            zielgruppe: "Alle, die ihr Selbstbewusstsein stärken und ihre Wirkung verbessern möchten."
         }
     },
     "selbstvertrauen-das-fundament-fuer-leistungsfaehigkeit": {
         id: "selbstvertrauen-das-fundament-fuer-leistungsfaehigkeit",
-        title: "Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit",
+        title: "Selbstvertrauen: Fundament für Leistung",
         category: "health",
         badge: "Seminar",
-        shortDescription: "Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Angemessenes Selbstvertrauen entwickeln – die Basis für volle Leistungsfähigkeit ohne Über- oder Untertreibung.",
+        details: ["2 Tage Präsenz", "Reflexion", "Praxisübungen"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Ohne Selbstvertrauen wären wir handlungsunfähig. Die Frage ist, wie viel Selbstvertrauen sinnvoll ist. Was brauche ich, um mich auf mich verlassen zu können?",
             ziele: [
-                "Kernkompetenzen im Bereich Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Persönliche Bereitschaft aus Fehlern zu lernen kennen",
+                "Selbstüberschätzung vermeiden können",
+                "Anerkennung von sich selbst und anderen annehmen",
+                "Einfluss des Wertesystems verstehen",
+                "Selbstvertrauen gezielt stärken"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Selbstvertrauen Das Fundament Fuer Leistungsfaehigkeit souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Selbstwahrnehmung und Fremdbild. Innere Kritiker erkennen. Ressourcen aktivieren. Umgang mit Rückmeldungen. Stärkung der Selbstwirksamkeit.",
+            nutzen: "Sie entfalten Ihre Leistungsfähigkeit voll, indem Sie auf ein gesundes Selbstvertrauen bauen können.",
+            zielgruppe: "Alle, die ihr Selbstvertrauen stärken und leistungsfähiger werden möchten."
         }
     },
     "gesundheit": {
         id: "gesundheit",
-        title: "Gesundheit",
+        title: "Gesundheit am Arbeitsplatz",
         category: "health",
         badge: "Seminar",
-        shortDescription: "Gesundheit - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Gesund arbeiten und führen – Strategien für mehr Wohlbefinden und nachhaltige Leistungsfähigkeit im Beruf.",
+        details: ["1-2 Tage", "Prävention", "Praxistipps"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesundheit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Gesundheit ist die Basis für beruflichen Erfolg. Wie bleiben Sie leistungsfähig, ohne auszubrennen? Welche Faktoren beeinflussen Ihre Gesundheit am Arbeitsplatz?",
             ziele: [
-                "Kernkompetenzen im Bereich Gesundheit aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Gesundheitsfördernde Faktoren erkennen",
+                "Belastungen frühzeitig wahrnehmen",
+                "Präventive Maßnahmen entwickeln",
+                "Work-Life-Balance verbessern"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Gesundheit souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Gesundheitsmodelle. Stressoren und Ressourcen. Ernährung und Bewegung. Mentale Gesundheit. Präventionsstrategien. Arbeitsplatzgestaltung.",
+            nutzen: "Sie entwickeln ein Bewusstsein für Ihre Gesundheit und kennen konkrete Maßnahmen zur Prävention.",
+            zielgruppe: "Alle, die ihre Gesundheit am Arbeitsplatz erhalten und verbessern möchten."
         }
     },
     "selbstverantwortung-und-kritikkompetenz": {
         id: "selbstverantwortung-und-kritikkompetenz",
-        title: "Selbstverantwortung Und Kritikkompetenz",
+        title: "Selbstverantwortung & Kritikkompetenz",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Selbstverantwortung Und Kritikkompetenz - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Verantwortung übernehmen und konstruktiv mit Kritik umgehen – für mehr Wirksamkeit im Führungsalltag.",
+        details: ["2 Tage Präsenz", "Reflexion", "Feedback"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Selbstverantwortung Und Kritikkompetenz' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Selbstverantwortung ist die Grundlage für erfolgreiche Führung. Wie übernehmen Sie konsequent Verantwortung? Wie gehen Sie konstruktiv mit Kritik um – als Gebender und als Empfänger?",
             ziele: [
-                "Kernkompetenzen im Bereich Selbstverantwortung Und Kritikkompetenz aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Selbstverantwortung als Haltung entwickeln",
+                "Konstruktiv Feedback geben und empfangen",
+                "Mit Kritik souverän umgehen",
+                "Verantwortung delegieren und einfordern"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Selbstverantwortung Und Kritikkompetenz souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Verantwortungskonzepte. Feedbackregeln. Kritikgespräche führen. Umgang mit Kritik. Selbstreflexion. Verantwortungskultur gestalten.",
+            nutzen: "Sie führen mit mehr Klarheit und gestalten eine Kultur der Verantwortung in Ihrem Team.",
+            zielgruppe: "Führungskräfte und alle, die mehr Verantwortung übernehmen möchten."
         }
     },
     "fragen-sie-doch-einfach-ihre-mitarbeiter-interaktive-mitarbeiterbefragung-und-fuehrungskraeftefeedback": {
         id: "fragen-sie-doch-einfach-ihre-mitarbeiter-interaktive-mitarbeiterbefragung-und-fuehrungskraeftefeedback",
-        title: "Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback",
+        title: "Mitarbeiterbefragung & Führungsfeedback",
         category: "leadership",
-        badge: "Seminar",
-        shortDescription: "Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Workshop",
+        shortDescription: "Interaktive Befragungen nutzen – wertvolle Impulse von Mitarbeitern gewinnen und Führungsqualität messbar machen.",
+        details: ["1 Tag", "Methodik", "Praxisbeispiele"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Mitarbeiterbefragungen und Führungskräftefeedback sind wertvolle Instrumente der Organisationsentwicklung. Wie gestalten Sie sie wirksam? Wie nutzen Sie die Ergebnisse?",
             ziele: [
-                "Kernkompetenzen im Bereich Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Befragungskonzepte kennenlernen",
+                "Feedback-Instrumente gestalten",
+                "Ergebnisse interpretieren und nutzen",
+                "Maßnahmen ableiten und umsetzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fragen Sie Doch Einfach Ihre Mitarbeiter Interaktive Mitarbeiterbefragung Und Fuehrungskraeftefeedback souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Befragungsdesign. Fragebogenentwicklung. Durchführungs-Methodik. Ergebnisauswertung. Kommunikation der Ergebnisse. Follow-up-Prozesse.",
+            nutzen: "Sie nutzen systematisches Feedback als Entwicklungsinstrument für Führungskräfte und die gesamte Organisation.",
+            zielgruppe: "HR-Verantwortliche, Führungskräfte und Organisationsentwickler."
         }
     },
     "beraterausbildung": {
         id: "beraterausbildung",
         title: "Beraterausbildung",
         category: "management",
-        badge: "Ausbildung",
-        shortDescription: "Beraterausbildung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Zertifizierung",
+        shortDescription: "Werden Sie zertifizierter Berater/Coach – Menschen professionell begleiten und Orientierung geben.",
+        details: ["6 Module", "Zertifikat", "Supervision"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Beraterausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Wir bieten Beraterausbildungen mit einzigartiger Methodenvielfalt und qualifizieren Sie zum Berater und zum zertifizierten Berater/Coach.",
             ziele: [
-                "Kernkompetenzen im Bereich Beraterausbildung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Menschen professionell begleiten und stärken",
+                "Orientierung für Menschen und Organisationen verbessern",
+                "Persönliche Potenziale in der Beratung kennenlernen und nutzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Beraterausbildung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Beratungsgrundlagen. Gesprächsführung. Systemisches Denken. Interventionsmethoden. Selbsterfahrung. Supervision und Praxis.",
+            nutzen: "Sie können Menschen und Organisationen professionell beraten und begleiten.",
+            zielgruppe: "Personalentwickler, Führungskräfte und alle, die professionell beraten möchten."
         }
     },
     "berufliche-entwicklung-in-der-lebensphase-30-plus": {
         id: "berufliche-entwicklung-in-der-lebensphase-30-plus",
-        title: "Berufliche Entwicklung In Der Lebensphase 30 Plus",
+        title: "Karriere 30+",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Berufliche Entwicklung In Der Lebensphase 30 Plus - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Die Weichen stellen – berufliche Perspektiven in der Lebensphase 30+ entwickeln und umsetzen.",
+        details: ["1-2 Tage", "Reflexion", "Planung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 30 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Mit 30 stehen viele berufliche und private Weichenstellungen an. Welche Karrierewege sind realistisch? Wie vereinbare ich Beruf und Familie?",
             ziele: [
-                "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 30 Plus aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Standortbestimmung und Potenzialanalyse",
+                "Karriereoptionen bewerten und entscheiden",
+                "Work-Life-Balance gestalten",
+                "Konkrete Entwicklungsziele setzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Berufliche Entwicklung In Der Lebensphase 30 Plus souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Lebensphasenmodelle. Karriereanker nach Schein. Prioritätensetzung. Vereinbarkeit von Beruf und Privatleben. Entwicklungsplan.",
+            nutzen: "Sie gewinnen Klarheit über Ihre beruflichen Ziele und gestalten Ihre Karriere bewusst.",
+            zielgruppe: "Fach- und Führungskräfte in der Lebensphase 30+."
         }
     },
     "berufliche-entwicklung-in-der-lebensphase-40-plus": {
         id: "berufliche-entwicklung-in-der-lebensphase-40-plus",
-        title: "Berufliche Entwicklung In Der Lebensphase 40 Plus",
+        title: "Karriere 40+",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Berufliche Entwicklung In Der Lebensphase 40 Plus - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Die Mitte nutzen – Erfahrung einbringen und neue Perspektiven entwickeln in der Lebensphase 40+.",
+        details: ["1-2 Tage", "Reflexion", "Neuausrichtung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 40 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Mit 40 verfügen Sie über wertvolle Erfahrung. Wie nutzen Sie diese optimal? Welche neuen Wege sind noch möglich und sinnvoll?",
             ziele: [
-                "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 40 Plus aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Erfahrung als Ressource nutzen",
+                "Karriereoptionen in der Lebensmitte bewerten",
+                "Neue Perspektiven entwickeln",
+                "Energie und Motivation stärken"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Berufliche Entwicklung In Der Lebensphase 40 Plus souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Bilanz ziehen. Erfahrung transferieren. Sinnfragen klären. Berufliche Neuorientierung. Motivation und Energie.",
+            nutzen: "Sie nutzen Ihre Erfahrung optimal und entwickeln neue berufliche Perspektiven.",
+            zielgruppe: "Fach- und Führungskräfte in der Lebensphase 40+."
         }
     },
     "berufliche-entwicklung-in-der-lebensphase-50-plus": {
         id: "berufliche-entwicklung-in-der-lebensphase-50-plus",
-        title: "Berufliche Entwicklung In Der Lebensphase 50 Plus",
+        title: "Karriere 50+",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Berufliche Entwicklung In Der Lebensphase 50 Plus - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Erfahrung nutzen & weitergeben – die letzten Berufsjahre aktiv gestalten und Wissen transferieren.",
+        details: ["1-2 Tage", "Reflexion", "Wissenstransfer"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 50 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Mit 50+ verfügen Sie über enorme Erfahrung. Wie geben Sie diese weiter? Wie gestalten Sie die letzten Berufsjahre sinnvoll?",
             ziele: [
-                "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 50 Plus aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Erfahrungswissen erkennen und dokumentieren",
+                "Wissenstransfer aktiv gestalten",
+                "Rolle als Mentor wahrnehmen",
+                "Übergang in den Ruhestand planen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Berufliche Entwicklung In Der Lebensphase 50 Plus souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Bilanzierung. Wissensmanagement. Mentoringkonzepte. Generationenübergreifende Zusammenarbeit. Übergangsgestaltung.",
+            nutzen: "Sie gestalten Ihre letzten Berufsjahre sinnvoll und hinterlassen einen wertvollen Beitrag.",
+            zielgruppe: "Fach- und Führungskräfte in der Lebensphase 50+."
         }
     },
     "besprechungsmanagement": {
@@ -241,41 +241,41 @@ const seminarsData = {
         title: "Besprechungsmanagement",
         category: "management",
         badge: "Seminar",
-        shortDescription: "Besprechungsmanagement - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Meetings effizient gestalten – Zeit sparen durch strukturierte Vorbereitung, Durchführung und Nachbereitung.",
+        details: ["1 Tag", "Praxistipps", "Tools"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Besprechungsmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Bei keiner anderen Aufgabe im Unternehmen wird so viel Zeit verschwendet wie bei Meetings. Lernen Sie, Besprechungen sicher vorzubereiten, durchzuführen und nachzubereiten.",
             ziele: [
-                "Kernkompetenzen im Bereich Besprechungsmanagement aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Meetings professionell vorbereiten",
+                "Besprechungen zielgerichtet durchführen",
+                "Mit schwierigen Situationen umgehen",
+                "Protokolle effektiv erstellen und nutzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Besprechungsmanagement souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Meetingvorbereitung. Agenda-Gestaltung. Moderationstechniken. Zeitmanagement. Protokollarten. Nachbereitungsprozesse.",
+            nutzen: "Ihre Besprechungen werden kürzer, effizienter und ergebnisorientierter.",
+            zielgruppe: "Alle, die regelmäßig Besprechungen leiten oder daran teilnehmen."
         }
     },
     "berufliche-entwicklung-in-der-lebensphase-60-plus": {
         id: "berufliche-entwicklung-in-der-lebensphase-60-plus",
-        title: "Berufliche Entwicklung In Der Lebensphase 60 Plus",
+        title: "Karriere 60+",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Berufliche Entwicklung In Der Lebensphase 60 Plus - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Den Abschluss gestalten – Wissen weitergeben und den Übergang in den Ruhestand aktiv vorbereiten.",
+        details: ["1-2 Tage", "Reflexion", "Übergang"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Berufliche Entwicklung In Der Lebensphase 60 Plus' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Mit 60+ steht der Übergang in den Ruhestand bevor. Wie gestalten Sie diesen aktiv? Wie geben Sie Ihr Wissen weiter?",
             ziele: [
-                "Kernkompetenzen im Bereich Berufliche Entwicklung In Der Lebensphase 60 Plus aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Berufliche Bilanz ziehen",
+                "Wissen systematisch übergeben",
+                "Übergang aktiv gestalten",
+                "Neue Lebensperspektiven entwickeln"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Berufliche Entwicklung In Der Lebensphase 60 Plus souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Lebenswerk würdigen. Wissensdokumentation. Übergabeprozesse. Identität jenseits der Arbeit. Neue Rollen finden.",
+            nutzen: "Sie gestalten Ihren Berufsausstieg bewusst und positiv.",
+            zielgruppe: "Fach- und Führungskräfte in der Lebensphase 60+."
         }
     },
     "betriebsorganisation": {
@@ -283,20 +283,20 @@ const seminarsData = {
         title: "Betriebsorganisation",
         category: "management",
         badge: "Seminar",
-        shortDescription: "Betriebsorganisation - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Strukturen und Prozesse optimieren – Abläufe effizienter gestalten und Schnittstellen verbessern.",
+        details: ["1-2 Tage", "Analyse", "Optimierung"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Betriebsorganisation' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Effiziente Betriebsorganisation ist die Grundlage für reibungslose Abläufe. Wie analysieren und optimieren Sie Strukturen und Prozesse in Ihrem Verantwortungsbereich?",
             ziele: [
-                "Kernkompetenzen im Bereich Betriebsorganisation aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Organisationsstrukturen analysieren und bewerten",
+                "Prozesse identifizieren und optimieren",
+                "Schnittstellen verbessern",
+                "Effizienzpotenziale heben"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Betriebsorganisation souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Organisationsformen. Prozessanalyse. Schnittstellenmanagement. Lean Management Grundlagen. Kontinuierliche Verbesserung.",
+            nutzen: "Sie optimieren Abläufe in Ihrem Bereich und reduzieren Reibungsverluste.",
+            zielgruppe: "Führungskräfte, Organisationsentwickler und Prozessverantwortliche."
         }
     },
     "bewerbertraining": {
@@ -304,20 +304,20 @@ const seminarsData = {
         title: "Bewerbertraining",
         category: "management",
         badge: "Seminar",
-        shortDescription: "Bewerbertraining - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Überzeugend bewerben – Unterlagen, Gespräche und Selbstpräsentation professionell meistern.",
+        details: ["1-2 Tage", "Simulation", "Feedback"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Bewerbertraining' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Eine erfolgreiche Bewerbung erfordert Vorbereitung. Wie gestalten Sie überzeugende Unterlagen? Wie meistern Sie Vorstellungsgespräche?",
             ziele: [
-                "Kernkompetenzen im Bereich Bewerbertraining aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Professionelle Bewerbungsunterlagen erstellen",
+                "Vorstellungsgespräche souverän meistern",
+                "Überzeugend präsentieren und auftreten",
+                "Mit kritischen Fragen umgehen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Bewerbertraining souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Lebenslauf und Anschreiben. Selbstpräsentation. Interview-Techniken. Assessment Center. Gehaltsverhandlung.",
+            nutzen: "Sie bewerben sich überzeugender und erhöhen Ihre Erfolgschancen.",
+            zielgruppe: "Alle, die sich beruflich verändern möchten."
         }
     },
     "bwl-fuer-nicht-bwler": {
@@ -366,107 +366,108 @@ const seminarsData = {
     },
     "change-kommunikation-professionelle-kommunikation-im-veraenderungsprozess": {
         id: "change-kommunikation-professionelle-kommunikation-im-veraenderungsprozess",
-        title: "Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess",
+        title: "Change-Kommunikation",
         category: "change",
         badge: "Seminar",
-        shortDescription: "Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Professionell kommunizieren im Veränderungsprozess – Botschaften klar formulieren und Mitarbeiter mitnehmen.",
+        details: ["1-2 Tage", "Praxisübungen", "Fallbeispiele"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "In Veränderungsprozessen ist Kommunikation der Schlüssel. Wie informieren Sie verständlich? Wie nehmen Sie Betroffene mit?",
             ziele: [
-                "Kernkompetenzen im Bereich Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Zielgruppengerecht kommunizieren",
+                "Transparenz schaffen und Gerüchte vermeiden",
+                "Mit Widerständen kommunikativ umgehen",
+                "Kommunikationspläne entwickeln"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Change Kommunikation Professionelle Kommunikation Im Veraenderungsprozess souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Kommunikationsstrategien im Change. Stakeholder-Analyse. Kanäle und Formate. Storytelling. Dialogformate. Umgang mit Widerstand.",
+            nutzen: "Ihre Kommunikation im Change wird klarer, überzeugender und Widerstandsreduzierender.",
+            zielgruppe: "Führungskräfte, Projektleiter und Kommunikationsverantwortliche in Veränderungsprojekten."
         }
     },
     "chefperspektive-wie-denkt-mein-chef-meine-chefin": {
         id: "chefperspektive-wie-denkt-mein-chef-meine-chefin",
-        title: "Chefperspektive Wie Denkt Mein Chef Meine Chefin",
+        title: "Chefperspektive verstehen",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Chefperspektive Wie Denkt Mein Chef Meine Chefin - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Die Denkweise von Führungskräften verstehen – effektiver nach oben kommunizieren und zusammenarbeiten.",
+        details: ["1 Tag", "Perspektivwechsel", "Strategien"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Chefperspektive Wie Denkt Mein Chef Meine Chefin' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Wie denkt Ihr Chef? Was sind seine Prioritäten und Zwänge? Wie können Sie Ihre Anliegen so formulieren, dass sie ankommen?",
             ziele: [
-                "Kernkompetenzen im Bereich Chefperspektive Wie Denkt Mein Chef Meine Chefin aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Führungsperspektive verstehen",
+                "Erwartungen von oben antizipieren",
+                "Effektiver nach oben kommunizieren",
+                "Zusammenarbeit mit Vorgesetzten verbessern"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Chefperspektive Wie Denkt Mein Chef Meine Chefin souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Rollenwechsel verstehen. Führungsverantwortung. Prioritäten und Druck von oben. Kommunikation auf Augenhöhe. Strategisches Denken.",
+            nutzen: "Sie verstehen Ihre Führungskraft besser und können effektiver zusammenarbeiten.",
+            zielgruppe: "Mitarbeiter und angehende Führungskräfte."
         }
     },
     "coachingausbildung": {
         id: "coachingausbildung",
         title: "Coachingausbildung",
         category: "management",
-        badge: "Ausbildung",
-        shortDescription: "Coachingausbildung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Zertifizierung",
+        shortDescription: "Werden Sie zertifizierter Coach – Menschen professionell in ihrer Entwicklung begleiten und stärken.",
+        details: ["8 Module", "Zertifikat", "Supervision"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Coachingausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Gute Kommunikation erfordert eine doppelte Stimmigkeit – nach außen und nach innen. In unserer Coachingausbildung entwickeln Sie Ihre Fähigkeit, Menschen professionell zu begleiten.",
             ziele: [
-                "Kernkompetenzen im Bereich Coachingausbildung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Gesprächsphasen kennen und Argumentation abstimmen",
+                "Ziel- und situationsorientiert auf Gespräche vorbereiten",
+                "Argumentationstechniken beherrschen",
+                "Gesprächsatmosphäre positiv beeinflussen",
+                "Konfliktsituationen wahrnehmen und bewältigen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Coachingausbildung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Coaching-Grundlagen. Gesprächsführung. Fragetechniken. Systemische Methoden. Selbsterfahrung. Supervision und Praxis. Zertifizierung.",
+            nutzen: "Sie können Menschen professionell als Coach begleiten und sind zertifiziert.",
+            zielgruppe: "Führungskräfte, Personalentwickler und alle, die professionell coachen möchten."
         }
     },
     "coaching-basics-fuer-agile-scrum-master": {
         id: "coaching-basics-fuer-agile-scrum-master",
-        title: "Coaching Basics Fuer Agile Scrum Master",
+        title: "Coaching Basics für Scrum Master",
         category: "leadership",
         badge: "Grundlagen",
-        shortDescription: "Coaching Basics Fuer Agile Scrum Master - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Coaching-Kompetenzen für agile Rollen – Teams als Scrum Master effektiv unterstützen und entwickeln.",
+        details: ["2 Tage", "Agile Methoden", "Praxisübungen"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Coaching Basics Fuer Agile Scrum Master' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Als Scrum Master sind Sie mehr als nur Prozessbegleiter. Coaching-Kompetenzen helfen Ihnen, Teams und Einzelpersonen in ihrer Entwicklung zu unterstützen.",
             ziele: [
-                "Kernkompetenzen im Bereich Coaching Basics Fuer Agile Scrum Master aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Coaching-Haltung entwickeln",
+                "Fragetechniken im agilen Kontext anwenden",
+                "Teams und Individuen unterstützen",
+                "Konflikte im Team moderieren"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Coaching Basics Fuer Agile Scrum Master souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Coaching vs. Mentoring. Fragetechniken. Aktives Zuhören. Retrospektiven gestalten. Impediment-Auflösung. Team-Coaching.",
+            nutzen: "Sie erweitern Ihre Scrum Master-Toolbox um wertvolle Coaching-Kompetenzen.",
+            zielgruppe: "Scrum Master, Agile Coaches und alle, die agile Teams begleiten."
         }
     },
     "delegation-das-handwerk-der-fuehrung": {
         id: "delegation-das-handwerk-der-fuehrung",
-        title: "Delegation Das Handwerk Der Fuehrung",
+        title: "Delegation: Das Handwerk der Führung",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Delegation Das Handwerk Der Fuehrung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Richtig delegieren – Aufgaben übertragen, Mitarbeiter fördern und Zeit gewinnen für Wesentliches.",
+        details: ["1-2 Tage", "Praxisübungen", "Fallarbeit"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Delegation Das Handwerk Der Fuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Haltung kommt vor Technik. Aber ganz ohne Technik wird es schwierig. Wie stellen Sie sicher, dass das, was Sie wollen, auch umgesetzt wird?",
             ziele: [
-                "Kernkompetenzen im Bereich Delegation Das Handwerk Der Fuehrung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Hilfsmittel zur effizienten Organisation kennen",
+                "Wissen, welche Aufgaben delegierbar sind",
+                "Möglichkeiten und Grenzen des Delegierens erkennen",
+                "Methoden zur effizienten Kontrolle beherrschen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Delegation Das Handwerk Der Fuehrung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Delegationsgrade. Aufgabenanalyse. Übergabegespräche. Kontrolle vs. Vertrauen. Motivation durch Delegation. Rückmeldung und Feedbackschleifen.",
+            nutzen: "Sie delegieren sicherer und haben mehr Zeit für strategische Aufgaben.",
+            zielgruppe: "Führungskräfte aller Ebenen."
         }
     },
     "erfolgsfaktor-vertrauen": {
@@ -474,20 +475,20 @@ const seminarsData = {
         title: "Erfolgsfaktor Vertrauen",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Erfolgsfaktor Vertrauen - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Vertrauen als Führungsinstrument – tragfähige Beziehungen aufbauen und Teamperformance steigern.",
+        details: ["1-2 Tage", "Reflexion", "Praxisübungen"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Erfolgsfaktor Vertrauen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Vertrauen ist die Basis jeder erfolgreichen Zusammenarbeit. Wie bauen Sie Vertrauen auf? Wie gehen Sie mit Vertrauensbrüchen um?",
             ziele: [
-                "Kernkompetenzen im Bereich Erfolgsfaktor Vertrauen aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Vertrauensmechanismen verstehen",
+                "Vertrauen gezielt aufbauen",
+                "Mit Vertrauensbrüchen umgehen",
+                "Vertrauenskultur gestalten"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Erfolgsfaktor Vertrauen souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Vertrauensmodelle. Vertrauen und Kontrolle. Glaubwürdigkeit. Zuverlässigkeit. Empathie. Umgang mit Enttäuschungen.",
+            nutzen: "Sie bauen tragfähige Vertrauensbeziehungen auf und steigern die Teamleistung.",
+            zielgruppe: "Führungskräfte und alle, die Vertrauen als Ressource nutzen möchten."
         }
     },
     "fuehren-in-beziehung": {
@@ -515,212 +516,214 @@ const seminarsData = {
     },
     "fuehren-durch-persoenlichkeit": {
         id: "fuehren-durch-persoenlichkeit",
-        title: "Fuehren Durch Persoenlichkeit",
+        title: "Führen durch Persönlichkeit",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Fuehren Durch Persoenlichkeit - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Authentisch führen in unsicheren Zeiten – die eigene Führungspersönlichkeit entwickeln und wirksam einsetzen.",
+        details: ["2-3 Tage", "Selbstreflexion", "Praxis"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehren Durch Persoenlichkeit' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Wie funktioniert Führung, wenn vertraute Strukturen wegfallen? Worauf kann Führung dann noch bauen? Was hilft, Unsicherheit auszuhalten?",
             ziele: [
-                "Kernkompetenzen im Bereich Fuehren Durch Persoenlichkeit aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Potential Ihrer Führungspersönlichkeit kennen",
+                "Bedürfnisse und Verwundbarkeiten hinter Ihrem Führungsstil verstehen",
+                "Verführbarkeit durch Macht erkennen",
+                "Einfluss situationsgerecht einsetzen",
+                "Innere Haltung zum Führungsanspruch entwickeln"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fuehren Durch Persoenlichkeit souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Führungspersönlichkeit reflektieren. Macht und Autorität. Balance zwischen Führen und Dienen. Authentizität. Umgang mit Unsicherheit.",
+            nutzen: "Sie führen authentischer und wirksamer durch Ihre Persönlichkeit.",
+            zielgruppe: "Führungskräfte, die ihre Wirksamkeit steigern möchten."
         }
     },
     "8d-problemloesung": {
         id: "8d-problemloesung",
-        title: "8D Problemloesung",
+        title: "8D-Problemlösung",
         category: "management",
         badge: "Seminar",
-        shortDescription: "8D Problemloesung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Strukturierte Problemlösung mit der 8D-Methode – Ursachen finden und nachhaltige Lösungen entwickeln.",
+        details: ["1-2 Tage", "Methodik", "Praxisfälle"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema '8D Problemloesung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Die 8D-Methode ist ein systematischer Ansatz zur Problemlösung, der besonders bei wiederkehrenden Problemen wirksam ist.",
             ziele: [
-                "Kernkompetenzen im Bereich 8D Problemloesung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Die 8 Disziplinen der Problemlösung beherrschen",
+                "Ursachenanalyse systematisch durchführen",
+                "Nachhaltige Korrekturmaßnahmen entwickeln",
+                "Problemlösung effektiv dokumentieren"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich 8D Problemloesung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Die 8 Schritte der 8D-Methode. Teambildung. Problembeschreibung. Sofortmaßnahmen. Ursachenanalyse. Korrekturmaßnahmen. Wirksamkeitskontrolle.",
+            nutzen: "Sie lösen Probleme systematisch und nachhaltig.",
+            zielgruppe: "Qualitätsverantwortliche, Prozessmanager und Projektleiter."
         }
     },
     "fuehren-zwischen-agieren-und-reagieren": {
         id: "fuehren-zwischen-agieren-und-reagieren",
-        title: "Fuehren Zwischen Agieren Und Reagieren",
+        title: "Führen zwischen Agieren und Reagieren",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Fuehren Zwischen Agieren Und Reagieren - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Die Balance finden – proaktiv gestalten und flexibel auf Veränderungen reagieren.",
+        details: ["2 Tage", "Reflexion", "Simulation"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehren Zwischen Agieren Und Reagieren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Führungskräfte stehen oft zwischen proaktiver Gestaltung und reaktivem Handeln. Wie finden Sie die richtige Balance?",
             ziele: [
-                "Kernkompetenzen im Bereich Fuehren Zwischen Agieren Und Reagieren aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Zwischen Agieren und Reagieren unterscheiden",
+                "Strategische Prioritäten setzen",
+                "Flexibel auf Veränderungen reagieren",
+                "Proaktive Führungskultur entwickeln"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fuehren Zwischen Agieren Und Reagieren souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Proaktives vs. reaktives Führen. Prioritätenmanagement. Umgang mit Unvorhergesehenem. Entscheidungsfindung unter Druck. Gelassenheit entwickeln.",
+            nutzen: "Sie führen ausgewogener und verlieren auch in turbulenten Zeiten nicht den Überblick.",
+            zielgruppe: "Führungskräfte, die ihre Wirksamkeit steigern möchten."
         }
     },
     "fuehrungskommunikation-und-arbeitsrechtliche-grundlagen": {
         id: "fuehrungskommunikation-und-arbeitsrechtliche-grundlagen",
-        title: "Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen",
+        title: "Führungskommunikation & Arbeitsrecht",
         category: "leadership",
         badge: "Grundlagen",
-        shortDescription: "Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Rechtssicher kommunizieren – arbeitsrechtliche Grundlagen für die tägliche Führungspraxis.",
+        details: ["1-2 Tage", "Recht", "Praxisfälle"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Als Führungskraft müssen Sie nicht nur kommunizieren, sondern auch arbeitsrechtliche Rahmenbedingungen kennen und einhalten.",
             ziele: [
-                "Kernkompetenzen im Bereich Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Arbeitsrechtliche Grundlagen kennen",
+                "Rechtssicher dokumentieren und kommunizieren",
+                "Gespräche zu sensiblen Themen führen",
+                "Typische Fehler vermeiden"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fuehrungskommunikation Und Arbeitsrechtliche Grundlagen souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Arbeitsvertrag und Weisungsrecht. Abmahnung und Kündigung. Arbeitszeit und Urlaub. Dokumentationspflichten. Gesprächsführung.",
+            nutzen: "Sie führen rechtssicher und vermeiden kostspielige Fehler.",
+            zielgruppe: "Führungskräfte, die arbeitsrechtliche Grundlagen benötigen."
         }
     },
     "fuehrungssimulation-krankenhaus-am-offenen-herzen": {
         id: "fuehrungssimulation-krankenhaus-am-offenen-herzen",
-        title: "Fuehrungssimulation Krankenhaus Am Offenen Herzen",
+        title: "Führungssimulation: Krankenhaus",
         category: "leadership",
-        badge: "Seminar",
-        shortDescription: "Fuehrungssimulation Krankenhaus Am Offenen Herzen - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Simulation",
+        shortDescription: "Führungskompetenzen unter Druck erproben – komplexe Entscheidungen in der Simulation erleben und reflektieren.",
+        details: ["1 Tag", "Planspiel", "Debriefing"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Fuehrungssimulation Krankenhaus Am Offenen Herzen' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "In dieser realitätsnahen Simulation übernehmen Sie Führungsverantwortung in einem komplexen, dynamischen Umfeld und erleben die Konsequenzen Ihrer Entscheidungen.",
             ziele: [
-                "Kernkompetenzen im Bereich Fuehrungssimulation Krankenhaus Am Offenen Herzen aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Unter Druck fundierte Entscheidungen treffen",
+                "Komplexe Situationen überblicken",
+                "Führungsverhalten in Stresssituationen reflektieren",
+                "Teamdynamiken in Krisensituationen verstehen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Fuehrungssimulation Krankenhaus Am Offenen Herzen souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Simulation eines Krankenhauses unter Zeitdruck. Entscheidungsfindung. Priorisierung. Teamkoordination. Debriefing und Reflexion.",
+            nutzen: "Sie erleben Ihre Führungsmuster unter Druck und entwickeln Handlungsalternativen.",
+            zielgruppe: "Führungskräfte, die ihre Entscheidungskompetenz unter Druck testen möchten."
         }
     },
     "gekonnt-visualisieren-an-flipchart-und-pinnwand": {
         id: "gekonnt-visualisieren-an-flipchart-und-pinnwand",
-        title: "Gekonnt Visualisieren An Flipchart Und Pinnwand",
+        title: "Visualisieren an Flipchart & Pinnwand",
         category: "communication",
-        badge: "Seminar",
-        shortDescription: "Gekonnt Visualisieren An Flipchart Und Pinnwand - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Workshop",
+        shortDescription: "Ideen sichtbar machen – mit einfachen Mitteln professionell visualisieren und Inhalte einprägsam präsentieren.",
+        details: ["1 Tag", "Praxis", "Kreativtechniken"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gekonnt Visualisieren An Flipchart Und Pinnwand' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Visualisierungen machen Inhalte verständlicher und einprägsamer. Lernen Sie, auch ohne Zeichentalent professionell zu visualisieren.",
             ziele: [
-                "Kernkompetenzen im Bereich Gekonnt Visualisieren An Flipchart Und Pinnwand aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Grundtechniken der Visualisierung beherrschen",
+                "Schrift und Symbole gekonnt einsetzen",
+                "Flipcharts wirkungsvoll gestalten",
+                "Präsentationen visuell unterstützen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Gekonnt Visualisieren An Flipchart Und Pinnwand souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Grundformen und Symbole. Schriftgestaltung. Farbwirkung. Aufbau und Struktur. Live-Übungen mit Feedback.",
+            nutzen: "Sie visualisieren überzeugend und unterstützen Ihre Inhalte visuell.",
+            zielgruppe: "Trainer, Moderatoren und alle, die häufig präsentieren."
         }
     },
     "genius": {
         id: "genius",
-        title: "Genius",
+        title: "Genius – Kreatives Potenzial",
         category: "leadership",
-        badge: "Seminar",
-        shortDescription: "Genius - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Workshop",
+        shortDescription: "Das kreative Genie in sich entdecken – innovative Lösungen finden durch neue Denkansätze.",
+        details: ["1-2 Tage", "Kreativität", "Innovation"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Genius' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Jeder Mensch hat kreatives Potenzial. Wie entdecken und nutzen Sie Ihr inneres Genie für innovative Lösungen?",
             ziele: [
-                "Kernkompetenzen im Bereich Genius aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Kreative Blockaden überwinden",
+                "Neue Denkansätze entwickeln",
+                "Innovative Lösungswege finden",
+                "Kreativität im Alltag nutzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Genius souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Kreativitätsmodelle. Denktechniken. Perspektivwechsel. Assoziative Methoden. Ideenbewertung.",
+            nutzen: "Sie entdecken Ihr kreatives Potenzial und finden innovative Lösungen.",
+            zielgruppe: "Alle, die ihr kreatives Denken fördern möchten."
         }
     },
     "gesunde-selbstfuehrung": {
         id: "gesunde-selbstfuehrung",
-        title: "Gesunde Selbstfuehrung",
-        category: "leadership",
+        title: "Gesunde Selbstführung",
+        category: "health",
         badge: "Seminar",
-        shortDescription: "Gesunde Selbstfuehrung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Das innere Gleichgewicht bewahren – auch in stürmischen Zeiten. Resilienz und Stressmanagement für Führungskräfte.",
+        details: ["2 Tage Präsenz", "Reflexion", "Maßnahmenplan"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesunde Selbstfuehrung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Gerade in dynamischen Zeiten – geprägt von Veränderungsprozessen, belastenden Arbeitsbedingungen und Unsicherheit – fällt es oft schwer, das innere Gleichgewicht aufrechtzuerhalten. Ziel einer gesunden Selbstführung ist es, bei stürmischer See in sich Ruhe zu bewahren und mit festem Stand jede Welle zu reiten.",
             ziele: [
-                "Kernkompetenzen im Bereich Gesunde Selbstfuehrung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Grundlagen gesunder Selbstführung und Stressmanagement kennen",
+                "Techniken zur gesunden Selbstführung anwenden",
+                "Empathie und achtsamer Umgang mit sich und anderen",
+                "Strategien gegen Hektik, Stress und schlechtes Gewissen",
+                "Selbststeuerungskompetenz erhöhen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Gesunde Selbstfuehrung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Stressoren und Ressourcen. Bewältigungsstrategien. Achtsamkeit im Alltag. Work-Life-Balance. Persönlicher Maßnahmenplan.",
+            nutzen: "Sie entwickeln Ihre Bewältigungskompetenzen (Ressourcen), um negative Stressoren und Belastungen auszugleichen.",
+            zielgruppe: "Führungskräfte und Fachkräfte, die ihre Resilienz stärken möchten."
         }
     },
     "gesundheitsorientiertes-fuehren": {
         id: "gesundheitsorientiertes-fuehren",
-        title: "Gesundheitsorientiertes Fuehren",
+        title: "Gesundheitsorientiertes Führen",
         category: "health",
         badge: "Seminar",
-        shortDescription: "Gesundheitsorientiertes Fuehren - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Teams gesund führen – als Führungskraft Belastungen erkennen und Ressourcen fördern.",
+        details: ["1-2 Tage", "Prävention", "Fallarbeit"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gesundheitsorientiertes Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Führungskräfte haben großen Einfluss auf die Gesundheit ihrer Mitarbeiter. Wie führen Sie, damit Ihr Team gesund und leistungsfähig bleibt?",
             ziele: [
-                "Kernkompetenzen im Bereich Gesundheitsorientiertes Fuehren aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Einfluss von Führung auf Gesundheit verstehen",
+                "Belastungssignale erkennen",
+                "Gesundheitsfördernde Rahmenbedingungen schaffen",
+                "Schwierige Gespräche zu Gesundheitsthemen führen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Gesundheitsorientiertes Fuehren souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Führung und Gesundheit. Belastungsanalyse. Ressourcenförderung. Präsentismus. Gesprächsführung bei Krankheit.",
+            nutzen: "Sie führen gesundheitsorientierter und reduzieren Fehlzeiten.",
+            zielgruppe: "Führungskräfte, die die Gesundheit ihres Teams fördern möchten."
         }
     },
     "gruppendynamik-in-teams": {
         id: "gruppendynamik-in-teams",
-        title: "Gruppendynamik In Teams",
+        title: "Gruppendynamik in Teams",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Gruppendynamik In Teams - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Teamdynamiken verstehen und nutzen – Rollen, Phasen und Prozesse in der Teamarbeit steuern.",
+        details: ["2 Tage", "Praxis", "Reflexion"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Gruppendynamik In Teams' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Was ist Gruppendynamik? Wie unterscheiden sich Gruppe und Team? Lässt sich Dynamik steuern? Welche Rollen sind wichtig?",
             ziele: [
-                "Kernkompetenzen im Bereich Gruppendynamik In Teams aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Psychologische Prozesse im Team verstehen",
+                "Eigene Rolle in Gruppen herausarbeiten",
+                "Förderliche Rahmenbedingungen schaffen",
+                "Werkzeuge zur Teamsteuerung anwenden"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Gruppendynamik In Teams souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Gruppenentwicklungsphasen. Rollen und Funktionen. Normen und Werte. Konflikte in Teams. Kreative Prozesse fördern.",
+            nutzen: "Sie steuern Teamprozesse gezielter und nutzen Dynamiken konstruktiv.",
+            zielgruppe: "Teamleiter, Projektleiter und alle, die Teams führen."
         }
     },
     "hybridesarbeiten": {
@@ -809,23 +812,24 @@ const seminarsData = {
     },
     "konflikterkennung-behandlung-praevention": {
         id: "konflikterkennung-behandlung-praevention",
-        title: "Konflikterkennung Behandlung Praevention",
+        title: "Konflikterkennung & Prävention",
         category: "communication",
         badge: "Seminar",
-        shortDescription: "Konflikterkennung Behandlung Praevention - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Konflikte frühzeitig erkennen, professionell behandeln und nachhaltig vorbeugen. Für eine produktive Zusammenarbeit.",
+        details: ["2 Tage Präsenz", "Fallarbeit", "Praxistransfer"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Konflikterkennung Behandlung Praevention' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Konflikte sind in Unternehmen Alltag. Innerbetriebliche Auseinandersetzungen zwischen Führungskräften oder Mitarbeitern belasten und mindern die Arbeitsproduktivität. Konflikte kosten allen Beteiligten viel Energie, die dringend für die eigentlichen Aufgaben benötigt wird.",
             ziele: [
-                "Kernkompetenzen im Bereich Konflikterkennung Behandlung Praevention aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Bisherige Lösungsstrategien reflektieren und Stärken erkennen",
+                "Verhaltensrepertoire verstärken und ergänzen",
+                "Konflikte erkennen und benennen können",
+                "Klar und eindeutig kommunizieren ohne andere zu verletzen",
+                "Geschätzter Ansprechpartner für kritische Situationen werden"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Konflikterkennung Behandlung Praevention souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Konfliktarten und Eskalationsstufen. Eigene Konfliktmuster erkennen. Deeskalationstechniken. Präventive Maßnahmen. Fallarbeit an eigenen Praxisbeispielen.",
+            nutzen: "Sie bringen die Organisation durch nachhaltige Klärung strittiger Themen voran. Ihre Konfliktfähigkeit wird zur Kernkompetenz.",
+            zielgruppe: "Führungskräfte, Projektleiter und alle, die Konflikte souverän meistern möchten."
         }
     },
     "kreativitaetstechniken": {
@@ -914,23 +918,24 @@ const seminarsData = {
     },
     "laterales-fuehren": {
         id: "laterales-fuehren",
-        title: "Laterales Fuehren",
+        title: "Laterales Führen",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Laterales Fuehren - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Führen ohne Weisungsbefugnis – überzeugen, motivieren und Einfluss nehmen in Matrixorganisationen und Projekten.",
+        details: ["2 Tage Präsenz", "Fallarbeit", "Simulation"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Laterales Fuehren' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "In modernen Organisationen führen viele Menschen ohne disziplinarische Führungsverantwortung: Projektleiter, Experten, Koordinatoren. Wie gelingt Führung, wenn Sie nicht durchsetzen können, sondern überzeugen müssen?",
             ziele: [
-                "Kernkompetenzen im Bereich Laterales Fuehren aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Die Besonderheiten lateraler Führung verstehen",
+                "Einflussmöglichkeiten ohne Weisungsbefugnis kennen",
+                "Überzeugend kommunizieren und verhandeln",
+                "Netzwerke aufbauen und nutzen",
+                "Widerstände konstruktiv bearbeiten"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Laterales Fuehren souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Führung in der Matrixorganisation. Macht und Einfluss. Mikropolitik verstehen. Verhandlungsstrategien. Stakeholder-Management. Umgang mit Widerständen. Fallarbeit an eigenen Situationen.",
+            nutzen: "Sie erweitern Ihr Repertoire an Führungsmöglichkeiten und können auch ohne formale Autorität Menschen für Ihre Ziele gewinnen.",
+            zielgruppe: "Projektleiter, Experten, Stabsmitarbeiter und alle, die ohne direkte Weisungsbefugnis führen."
         }
     },
     "leadership-basics": {
@@ -1297,21 +1302,21 @@ const seminarsData = {
         id: "trainerausbildung",
         title: "Trainerausbildung",
         category: "management",
-        badge: "Ausbildung",
-        shortDescription: "Trainerausbildung - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        badge: "Zertifizierung",
+        shortDescription: "Werden Sie zertifizierter Trainer – mit einzigartiger Methodenvielfalt und fundierter Didaktik.",
+        details: ["7 Module", "Zertifikat", "Supervision"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Trainerausbildung' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Wir bieten Trainerausbildungen mit einer einzigartigen Methodenvielfalt und qualifizieren Sie zum Trainer und Berater sowie zum zertifizierten Trainer.",
             ziele: [
-                "Kernkompetenzen im Bereich Trainerausbildung aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "In Seminaren und Workshops Wissen und Können weiterreichen",
+                "Sicherheit im professionellen Umgang mit Gruppen verstärken",
+                "Standing durch eine klare, innere Haltung aufwerten",
+                "Praxis- und menschennahe Vermittlungsmethoden kennenlernen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Trainerausbildung souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Modul 1: Biographie und Identität | Modul 2: Psychologische Schulen | Modul 3: Didaktik und Agogik | Modul 4: Rhetorik und Präsentation | Modul 5: Moderation schwieriger Situationen | Modul 6: Akquise und Vertragsgestaltung | Modul 7: Zertifizierung",
+            nutzen: "Sie werden zum souveränen Trainer mit eigener Haltung und fundiertem Methodenrepertoire.",
+            zielgruppe: "Weiterbildner, Coaches, KVP-Moderatoren, Führungskräfte und alle, die Wissen vermitteln."
         }
     },
     "verkaufen-reloaded": {
@@ -1337,23 +1342,24 @@ const seminarsData = {
     },
     "vom-mitarbeiter-zur-fuehrungskraft": {
         id: "vom-mitarbeiter-zur-fuehrungskraft",
-        title: "Vom Mitarbeiter Zur Fuehrungskraft",
+        title: "Vom Mitarbeiter zur Führungskraft",
         category: "leadership",
         badge: "Seminar",
-        shortDescription: "Vom Mitarbeiter Zur Fuehrungskraft - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Der erfolgreiche Rollenwechsel – von der Fachkraft zur Führungspersönlichkeit. Den Einstieg in die Führung souverän meistern.",
+        details: ["2-3 Tage Präsenz", "Rollenarbeit", "Coaching"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Vom Mitarbeiter Zur Fuehrungskraft' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Der Aufstieg zur Führungskraft ist ein herausfordernder Rollenwechsel. Plötzlich sind ehemalige Kollegen nun Mitarbeiter. Wie gelingt der Spagat zwischen Nähe und notwendiger Distanz? Wie etabliert man sich als Führungskraft?",
             ziele: [
-                "Kernkompetenzen im Bereich Vom Mitarbeiter Zur Fuehrungskraft aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Den eigenen Rollenwechsel reflektieren und gestalten",
+                "Führungsverständnis entwickeln und etablieren",
+                "Umgang mit ehemaligen Kollegen als Mitarbeiter",
+                "Erste 100 Tage als Führungskraft planen",
+                "Typische Fallstricke erkennen und vermeiden"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Vom Mitarbeiter Zur Fuehrungskraft souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Rollenklarheit und Erwartungsmanagement. Führung auf Augenhöhe. Der erste Auftritt. Umgang mit Widerständen. Prioritäten setzen. Delegation lernen.",
+            nutzen: "Sie gestalten Ihren Einstieg in die Führungsrolle professionell und souverän. Sie vermeiden typische Fehler und schaffen Akzeptanz bei Ihrem Team.",
+            zielgruppe: "Nachwuchsführungskräfte und alle, die kürzlich in eine Führungsrolle aufgestiegen sind."
         }
     },
     "widerstandsfaehigkeit-staerken": {
@@ -1383,20 +1389,21 @@ const seminarsData = {
         title: "Zeitmanagement",
         category: "management",
         badge: "Seminar",
-        shortDescription: "Zeitmanagement - praxisnah und fundiert vermittelt.",
-        details: ["Präsenz / Online", "Zertifikat", "Verpflegung"],
+        shortDescription: "Prioritäten setzen, Zeitfresser eliminieren und die Informationsflut beherrschen. Für mehr Effizienz im Alltag.",
+        details: ["2 Tage Präsenz", "Planungstools", "Praxistransfer"],
         heroImage: "assets/hero-meeting.jpg",
         content: {
-            intro: "In diesem Seminar zum Thema 'Zeitmanagement' erlernen Sie fundierte Strategien und Techniken für die Praxis.",
+            intro: "Was sind funktionale Methoden der Planung und Prioritätensetzung? Wie können Sie Ihr Schreibtischmanagement an Ihre Arbeitsweise anpassen? Welche Zeitfresser können Sie minimieren? Wie werden Sie Herr über die Informationsflut?",
             ziele: [
-                "Kernkompetenzen im Bereich Zeitmanagement aufbauen",
-                "Praktische Methoden und Werkzeuge kennenlernen",
-                "Eigene Verhaltensweisen reflektieren",
-                "Transfer in den beruflichen Alltag sicherstellen"
+                "Entlastung durch angemessene, flexible und schriftliche Planung",
+                "Die wichtigsten Planungsinstrumente kennen und auswählen",
+                "Wissen, wann Eskalation sinnvoll ist und konstruktiv Nein sagen",
+                "Stärken und Schwächen des eigenen Arbeitsverhaltens kennen",
+                "Belastbarkeit und Grenzen realistisch einschätzen"
             ],
-            inhalte: "Theoretische Grundlagen, Praxisübungen, Fallbeispiele und Transferaufgaben. Der Fokus liegt auf direkter Anwendbarkeit.",
-            nutzen: "Sie erweitern Ihre Handlungskompetenz und können Herausforderungen im Bereich Zeitmanagement souverän meistern.",
-            zielgruppe: "Fach- und Führungskräfte sowie alle, die sich in diesem Thema weiterentwickeln möchten."
+            inhalte: "Zeitfresser-Analyse. Priorisierungstechniken. Planungsinstrumente. Umgang mit Unterbrechungen. Selbstmotivation. Delegation.",
+            nutzen: "Sie können Ihre Ressourcen optimal einsetzen und gewinnen mehr Zeit für die wirklich wichtigen Aufgaben.",
+            zielgruppe: "Alle, die ihre Arbeitszeit besser nutzen und ihren Alltag strukturierter gestalten möchten."
         }
     },
     "zusammenarbeit-von-generationen": {
